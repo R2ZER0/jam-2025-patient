@@ -16,6 +16,15 @@ label park:
     He notices you and smiles as you come over.
     """
 
+    # internal
+
+    p "I can see his jump-stilts sitting abandoned on the floor next to him.
+    Guess that explains how he got hurt - those things are not the safest."
+
+    # BONUS: display pop-up image of some jump-stilts for reference, since most people won't know what they are
+
+    # /internal
+
     p "Dave, there you are! I've been so worried!"
 
     d "Oh, hi [player_name]. I think I hit my head, it really hurts."

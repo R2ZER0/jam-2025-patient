@@ -29,6 +29,12 @@ menu:
 
     # "Place"
 
+    d "Where are we?"
+
+menu:
+    "[currentlocation]":
+        # If "Park"
+        d "What am I doing here?"
 
     "Injuries"
     "Helmet"

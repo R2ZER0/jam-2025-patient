@@ -25,7 +25,5 @@ label start:
 
     call park
 
-    call 
-
     # This ends the game.
     return

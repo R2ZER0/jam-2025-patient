@@ -4,12 +4,15 @@ label park:
     scene bg meadow
 
 # Insert code to make Dave_smiling sprite appear in the centre.
+    show dave smiling
 
-# Insert alt text "You arrive at the park. 
-# It is a sunny day and there is plenty of green space.
-# Your stepbrother, Dave, is a slim white guy in his twenties. 
-# He's wearing a T-shirt, tracksuit bottoms, and a helmet.
-# He notices you and smiles as you come over."
+    alt """
+    You arrive at the park. 
+    It is a sunny day and there is plenty of green space.
+    Your stepbrother, Dave, is a slim white guy in his twenties. 
+    He's wearing a T-shirt, tracksuit bottoms, and a helmet.
+    He notices you and smiles as you come over.
+    """
 
     p "Dave, there you are! I've been so worried!"
 
@@ -18,24 +21,29 @@ label park:
     p "...Yeah, I know you did, you told me so like ten minutes ago."
 
     # Change sprite from Dave_smiling to Dave_confused
-    # Add alt text "Dave looks puzzled."
+    show dave confused
+    alt "Dave looks puzzled."
 
     d "I did?"
 
     # Move Dave_confused to the left, add Silhouette_1 to the right.
-    # Add alt text "A stranger nearby inserts themself into your conversation."
+    alt "A stranger nearby inserts themself into your conversation."
+    show dave confused at left with move
+    show stranger at right
 
-    s "Yeah, his memory sort of loops every few minutes."
+    stranger "Yeah, his memory sort of loops every few minutes."
 
     p "What the...?"
 
-    s "Don't worry, I already called an ambulance - they're on their way."
+    stranger "Don't worry, I already called an ambulance - they're on their way."
 
     p "Oh, uh, thank you."
 
-    s "No problem."
+    stranger "No problem."
 
     # Exit Silhouette_1 to the right, move Dave_confused to centre again.
+    hide stranger
+    show dave confused at center with move
 
     d "I don't remember them calling me an ambulance, either."
 

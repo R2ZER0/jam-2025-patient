@@ -118,7 +118,7 @@ label park:
     Call an ambulance immediately if you suspect a serious head injury.
     Don't remove their helmet if they're wearing one, unless it's absolutely necessary to clear their airway.'
     Pretty much what I half-remembered from my first aid course. Good.
-    A few minutes pass in comfortable silence, until..."
+    A few moments pass in comfortable silence, until..."
 
     # change Dave_smiling to Dave_confused
 

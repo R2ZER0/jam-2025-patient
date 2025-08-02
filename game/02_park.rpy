@@ -38,18 +38,60 @@ label park:
 
     d "I don't remember them calling me an ambulance, either."
 
-    
+    # Make the next line "internal" style.
 
-    
+    p "Yikes, this could be really bad... but I probably shouldn't tell him that.
+    I don't want him to be stressed out on top of being injured.
+    I guess I'll just focus on first aid and keeping him calm till the ambulance gets here."
 
+    # End the "internal" style.
 
+    p "No big deal. Are you hurt anywhere other than your head?"
 
-menu:
-    "It's 2016":
-        p "It's 2016"
+    d "Yeah, my wrist is really sore."
 
-    "You don't know what year it is?!":
-        "..."
+    p "Try to keep it still, then, just in case it's broken."
 
-    "???":
-        "???"
+    # internal
+
+    p "What on Earth happened to you?"
+
+    # /internal
+
+    d "...Um, this might be a weird question, but what year is it?"
+
+    # internal
+
+    p "Oh damn, this is not good."
+
+    # /internal
+
+    p "What year do you think it is?"
+
+    d "2016?"
+
+    # internal
+
+    p "Thank goodness..."
+
+    # /internal
+
+    p "Yep, you got it."
+
+    d "And, uh, what month is it? I'm guessing it's summer holidays?"
+
+    p "Yeah. It's July."
+
+    d "That's so weird."
+
+    p "What month were you expecting it to be?"
+
+    d "I dunno, it's obviously warm out but I feel like it was literally just November."
+
+    # internal
+
+    p "Well, crap."
+
+    # /internal
+
+    p "No worries. "

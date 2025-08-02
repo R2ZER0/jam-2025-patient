@@ -2,8 +2,34 @@
 # Use with "call common_tpih()", not jump
 
 label common_tpih():
-    "Time"
-    "Place"
+    # "Time"
+
+    # Set sprite to Dave_confused
+
+    d "What year is it?"
+
+menu: 
+    "2016.":
+        d "Oh, good."
+    "What year do you think it is?"
+        d "Uh... 2016?"
+        p "Yep."
+
+    d "What month is it?"
+
+menu:
+    "July.":
+        d "Weird."
+    "Have a guess.":
+        d "Um... June?"
+        p "Close."
+        d "July?"
+        p "Yep."
+        d "Nailed it."
+
+    # "Place"
+
+    
     "Injuries"
     "Helmet"
     "Etc"

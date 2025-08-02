@@ -1,7 +1,8 @@
 label park:
 
-
 # Please insert code to make park background art fade in.
+    scene bg meadow
+
 # Insert code to make Dave_smiling sprite appear in the centre.
 
 # Insert alt text "You arrive at the park. 

@@ -47,7 +47,7 @@ menu nb_what_typical_mistake:
         $ wrong_gender = "f"
         jump start_got_player_info
 
-    "They tend to just panic":
+    "I present myself as quite androgynous, so they tend to just panic":
         $ wrong_gender = "panic"
         jump start_got_player_info
 
@@ -56,7 +56,7 @@ label start_got_player_info:
     define p = Character("[player_name]")
     "DEBUG: Hello name=[player_name] gender=[gender] wrong_gender=[wrong_gender]"
 
-    jump intro
+    jump monologue1
 
     # This ends the game.
     return

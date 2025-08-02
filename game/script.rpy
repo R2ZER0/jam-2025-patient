@@ -13,10 +13,10 @@ label start:
     # images directory to show it.
 
 
-    $ player_name = renpy.input("Sorry, who are you?")
+    $ player_name = renpy.input("What's your name?")
     $ player_name = player_name.strip() # remove whitespace if they accidentally typed space or tab etc
     if player_name == "":
-        $ player_name = "Person" # default name if none is given
+        $ player_name = "Phoenix" # default name if none is given
 
 menu start_ask_gender:
     "What's your gender?"

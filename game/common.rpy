@@ -31,13 +31,27 @@ menu:
 
     d "Where are we?"
 
-menu:
-    "[currentlocation]":
+    p "[currentlocation]"
         # If "Park"
-        d "What am I doing here?"
+        # d "What am I doing here?"
+        # p "I'm pretty sure you were jump-stilting and hit your head."
+        # d "...Oops."
+        # else
+        # d "Right. That's probably good - I think I hit my head."
 
-    "Injuries"
-    "Helmet"
-    "Etc"
+    # "Injuries"
+
+    d "My head really hurts. So does my wrist."
+
+menu:
+    "Yeah, I'm pretty sure you have a concussion.":
+        # "Helmet"
+        # internal "And to nobody's surprise, he tries to touch his head, but luckily his helmet gets in the way."
+        # set sprite to Dave_smiling
+        d "Good thing I was wearing this!"
+    # if in park or ambulance
+    "Yeah, your wrist might be sprained or broken, I'm not sure."
+    # else
+    "Yeah, the medics reckon your wrist is probably broken, sorry."
 
 return

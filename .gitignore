@@ -30,3 +30,4 @@
 *.swp
 renpy_warp_*.py
 .vscode
+*~

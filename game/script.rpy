@@ -19,16 +19,18 @@ label start:
         $ player_name = "Person" # default name if none is given
 
 menu start_ask_gender:
-    "Gender?"
+    "What's your gender?"
 
-    "F": 
+    "Non-binary":
+        $ gender = "nb"
+
+    "Female": 
         $ gender = "f"
 
-    "M":
+    "Male":
         $ gender = "m"
 
-    "NB":
-        $ gender = "nb"
+
 
 label start_got_player_info:
     "DEBUG: Hello [player_name] [gender]"

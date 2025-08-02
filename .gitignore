@@ -24,3 +24,8 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+
+# extras
+*.swp
+renpy_warp_*.py

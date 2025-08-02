@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
 
 # The game starts here.
 
@@ -14,28 +12,28 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
 
     $ player_name = renpy.input("Sorry, who are you?")
     $ player_name = player_name.strip() # remove whitespace if they accidentally typed space or tab etc
     if player_name == "":
-        player_name = "Ren" # default name if none is given
+        $ player_name = "Person" # default name if none is given
 
+menu start_ask_gender:
+    "Gender?"
 
+    "F": 
+        $ gender = "f"
 
+    "M":
+        $ gender = "m"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    "NB":
+        $ gender = "nb"
 
-    show eileen happy
+label start_got_player_info:
+    "DEBUG: Hello [player_name] [gender]"
 
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    jump intro
 
     # This ends the game.
-
     return

@@ -14,7 +14,7 @@ label monologue1:
 
     I've been repressing a massive wave of anxiety since I got that phone call.
 
-    Whatever Dave has done to get himself concussed,
+    Whatever Dave has done to injure himself this time,
     I'm gonna kill him once I make sure he's okay.
 
     I swear, my goofball stepbrother has taken years off my life

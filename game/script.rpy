@@ -25,7 +25,7 @@ label start:
 
     call park
 
-    call 
+    call dia_loop_1 
 
     # This ends the game.
     return

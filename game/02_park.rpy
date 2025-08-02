@@ -104,4 +104,18 @@ label park:
     # internal
 
     p "We settle down on a bench to bask in the sunlight while we wait. 
-    A few minutes pass in comfortable silence."
+    I look up first aid for head injuries on my phone, just to be sure.
+    'Check if the patient is responsive and look out for signs of concussion. 
+    Ensure their airways are clear and they are breathing.
+    Call an ambulance immediately if you suspect a serious head injury.
+    Don't remove their helmet if they're wearing one, unless it's absolutely necessary to clear their airway.'
+    Pretty much what I half-remembered from my first aid course. Good.
+    A few minutes pass in comfortable silence, until..."
+
+    # change Dave_smiling to Dave_confused
+
+    d "Hey [player_name], I think I hit my head - it really hurts."
+
+    p "Yeah, man, you did. We're just waiting for an ambulance now."
+
+    d "Oh, okay. That makes sense."

@@ -23,18 +23,38 @@ menu start_ask_gender:
 
     "Non-binary":
         $ gender = "nb"
+        jump nb_what_typical_mistake
+        jump start_got_player_info
 
     "Female": 
         $ gender = "f"
+        $ wrong_gender = "m"
+        jump start_got_player_info
 
     "Male":
         $ gender = "m"
+        $ wrong_gender = "f"
+        jump start_got_player_info
 
+menu nb_what_typical_mistake:
+    "And what binary gender do you typically get mistaken for?"
+
+    "Male":
+        $ wrong_gender = "m"
+        jump start_got_player_info
+
+    "Female":
+        $ wrong_gender = "f"
+        jump start_got_player_info
+
+    "They tend to just panic":
+        $ wrong_gender = "panic"
+        jump start_got_player_info
 
 
 label start_got_player_info:
     define p = Character("[player_name]")
-    "DEBUG: Hello [player_name] [gender]"
+    "DEBUG: Hello name=[player_name] gender=[gender] wrong_gender=[wrong_gender]"
 
     jump intro
 

@@ -41,7 +41,7 @@ menu start_ask_gender:
         jump start_got_player_info
 
 menu nb_what_typical_mistake:
-    "And what binary gender do you typically get mistaken for?"
+    "And which binary gender do you typically get mistaken for?"
 
     "Male":
         $ wrong_gender = "m"
@@ -51,16 +51,20 @@ menu nb_what_typical_mistake:
         $ wrong_gender = "f"
         jump start_got_player_info
 
-    "I present myself as quite androgynous, so they tend to just panic":
+    "I present myself as quite androgynous, so cisnormative people tend to just panic":
         $ wrong_gender = "panic"
         jump start_got_player_info
 
 
 label start_got_player_info:
     define p = Character("[player_name]")
-    "DEBUG: Hello name=[player_name] gender=[gender] wrong_gender=[wrong_gender]"
+# old debug code, ignore    "DEBUG: Hello name=[player_name] gender=[gender] wrong_gender=[wrong_gender]"
 
-    jump monologue1
+    call monologue1
+
+    call park
+
+    call 
 
     # This ends the game.
     return

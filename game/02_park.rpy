@@ -16,14 +16,10 @@ label park:
     He notices you and smiles as you come over.
     """
 
-    # internal
-
-    p "I can see his jump-stilts sitting abandoned on the floor next to him.
+    p "{=internal}I can see his jump-stilts sitting abandoned on the floor next to him.
     Guess that explains how he got hurt - those things are not the safest."
 
     # BONUS: display pop-up image of some jump-stilts for reference, since most people won't know what they are
-
-    # /internal
 
     p "Dave, there you are! I've been so worried!"
 
@@ -99,8 +95,6 @@ label park:
     show dave smiling
 
     d "Yeah!"
-
-    # internal
 
     p "{=internal}We settle down on a bench to bask in the sunlight while we wait. 
     I look up first aid for head injuries on my phone, just to be sure.

@@ -3,7 +3,7 @@ label intro:
 
 menu:
     "It's 2016":
-        "..."
+        p "It's 2016"
 
     "You don't know what year it is?!":
         "..."

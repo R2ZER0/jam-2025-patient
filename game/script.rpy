@@ -33,6 +33,7 @@ menu start_ask_gender:
 
 
 label start_got_player_info:
+    define p = Character("[player_name]")
     "DEBUG: Hello [player_name] [gender]"
 
     jump intro

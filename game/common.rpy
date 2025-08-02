@@ -11,7 +11,7 @@ label common_tpih():
 menu: 
     "2016.":
         d "Oh, good."
-    "What year do you think it is?"
+    "What year do you think it is?":
         d "Uh... 2016?"
         p "Yep."
 
@@ -29,8 +29,8 @@ menu:
 
     # "Place"
 
-    
+
     "Injuries"
     "Helmet"
     "Etc"
-    return
+return

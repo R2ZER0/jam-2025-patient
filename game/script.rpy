@@ -8,10 +8,14 @@
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
 
+    # counters, variables, flags
+
+    $ count_patience = 0
+    $ count_impatience = 0
+
+
+    # ask for player's info
 
     $ player_name = renpy.input("What's your name?")
     $ player_name = player_name.strip() # remove whitespace if they accidentally typed space or tab etc

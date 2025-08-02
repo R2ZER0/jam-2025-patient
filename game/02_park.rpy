@@ -3,9 +3,8 @@ label park:
     # Fade in meadows
     scene bg meadow with fade
 
-# Insert code to set $ currentlocation to "The park."
+    $ current_location = "The park."
 
-# Insert code to make Dave_smiling sprite appear in the centre.
     # show defaults to centre
     show dave smiling
 

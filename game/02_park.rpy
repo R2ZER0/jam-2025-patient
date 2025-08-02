@@ -95,4 +95,4 @@ label park:
 
     # /internal
 
-    p "No worries. "
+    p "No worries. I bet the last few months will come back to you once you've had a chance to heal up."

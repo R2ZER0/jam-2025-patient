@@ -19,9 +19,12 @@ label park:
     # internal
 
     p "I can see his jump-stilts sitting abandoned on the floor next to him.
-    Guess that explains how he got hurt - those things are not the safest."
+    Guess that explains how he got hurt - those things are not the safest.
+    In fact, they look almost comically unsafe for human use."
 
     # BONUS: display pop-up image of some jump-stilts for reference, since most people won't know what they are
+    # BONUS: add alt text "The jump-stilts are a pair of contraptions with fairly complicated-looking parts.
+    # Each one has a metal section to strap the user's calf, a place for their foot to rest on, and attached to various springs is a long, curved blade like a prosthetic leg with a rubber tip."
 
     # /internal
 

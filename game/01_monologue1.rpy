@@ -5,6 +5,8 @@ label monologue1:
     # BONUS: code "internal" style so it can be set to italics or roman in the options menu.
     # BONUS: allow "internal" style to be simultaneously a custom color AND in italics.
     
+    # Fade in zooming travel background (if we have it), else keep it black.
+
     p """
 
     I'm racing towards the park, 

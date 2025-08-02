@@ -1,11 +1,11 @@
 label park:
 
-# Please insert code to make park background art fade in.
-    scene bg meadow
+    # Fade in meadows
+    scene bg meadow with fade
 
-# Insert code to set $ currentlocation to "The park."
+    $ current_location = "The park."
 
-# Insert code to make Dave_smiling sprite appear in the centre.
+    # show defaults to centre
     show dave smiling
 
     alt """
@@ -16,17 +16,13 @@ label park:
     He notices you and smiles as you come over.
     """
 
-    # internal
-
-    p "I can see his jump-stilts sitting abandoned on the floor next to him.
+    p "{=internal}I can see his jump-stilts sitting abandoned on the floor next to him.
     Guess that explains how he got hurt - those things are not the safest.
     In fact, they look almost comically unsafe for human use."
 
     # BONUS: display pop-up image of some jump-stilts for reference, since most people won't know what they are
     # BONUS: add alt text "The jump-stilts are a pair of contraptions with fairly complicated-looking parts.
     # Each one has a metal section to strap the user's calf, a place for their foot to rest on, and attached to various springs is a long, curved blade like a prosthetic leg with a rubber tip."
-
-    # /internal
 
     p "Dave, there you are! I've been so worried!"
 
@@ -61,13 +57,9 @@ label park:
 
     d "I don't remember them calling me an ambulance, either."
 
-    # Make the next line "internal" style.
-
-    p "Yikes, this could be really bad... but I probably shouldn't tell him that.
+    p "{=internal}Yikes, this could be really bad... but I probably shouldn't tell him that.
     I don't want him to be stressed out on top of being injured.
     I guess I'll just focus on first aid and keeping him calm till the ambulance gets here."
-
-    # End the "internal" style.
 
     p "No big deal. Are you hurt anywhere other than your head?"
 
@@ -75,29 +67,17 @@ label park:
 
     p "Try to keep it still, then, just in case it's broken."
 
-    # internal
-
-    p "What on Earth happened to you?"
-
-    # /internal
+    p "{=internal}What on Earth happened to you?"
 
     d "...Um, this might be a weird question, but what year is it?"
 
-    # internal
-
-    p "Oh damn, this is not good."
-
-    # /internal
+    p "{=internal}Oh damn, this is not good."
 
     p "What year do you think it is?"
 
     d "2016?"
 
-    # internal
-
-    p "Thank goodness..."
-
-    # /internal
+    p "{=internal}Thank goodness..."
 
     p "Yep, you got it."
 
@@ -111,21 +91,15 @@ label park:
 
     d "I dunno, it's obviously warm out but I feel like it was literally just November."
 
-    # internal
-
-    p "Well, crap."
-
-    # /internal
+    p "{=internal}Well, crap."
 
     p "No worries. I bet the last few months will come back to you once you've had a chance to heal up."
 
-    # change Dave_confused to Dave_smiling
+    show dave smiling
 
     d "Yeah!"
 
-    # internal
-
-    p "We settle down on a bench to bask in the sunlight while we wait. 
+    p "{=internal}We settle down on a bench to bask in the sunlight while we wait. 
     I look up first aid for head injuries on my phone, just to be sure.
     'Check if the patient is responsive and look out for signs of concussion. 
     Ensure their airways are clear and they are breathing.

@@ -10,7 +10,7 @@ label monologue1:
     p """
 
     I'm racing towards the park, 
-    barely able to stay focused enough to steer my bike.
+    barely able to stay focused enough to dodge out of people's way.
 
     I've been repressing a massive wave of anxiety since I got that phone call.
 

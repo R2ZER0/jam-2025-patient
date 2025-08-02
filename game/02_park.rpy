@@ -79,11 +79,11 @@ label park:
 
     p "Yep, you got it."
 
-    d "And, uh, what month is it? I'm guessing it's summer holidays?"
+    d "And, uh, what month is it? I'm guessing it's the summer?"
 
     p "Yeah. It's July."
 
-    d "That's so weird."
+    d "That's so weird..."
 
     p "What month were you expecting it to be?"
 
@@ -96,3 +96,12 @@ label park:
     # /internal
 
     p "No worries. I bet the last few months will come back to you once you've had a chance to heal up."
+
+    # change Dave_confused to Dave_smiling
+
+    d "Yeah!"
+
+    # internal
+
+    p "We settle down on a bench to bask in the sunlight while we wait. 
+    A few minutes pass in comfortable silence."

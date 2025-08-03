@@ -5,6 +5,7 @@ define d = Character("Dave")
 # Others
 define stranger = Character("Stranger")
 define paramedic = Character("Paramedic")
+define receptionist = Character("Receptionist")
 define nurse = Character("Nurse")
 
 # Friends

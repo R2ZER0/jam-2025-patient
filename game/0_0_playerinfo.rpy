@@ -47,5 +47,4 @@ label .set_variables:
     else:
         $ sibling_ref = "stepsibling"
 
-
     return

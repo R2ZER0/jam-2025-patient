@@ -73,7 +73,7 @@ label common_tpih(loop_n):
 
                 d "If you say so..."
 
-                # Add 'Impatient' point.
+                $ count_impatience = count_impatience + 1
 
             "I've never been in an ambulance before." if loop_n == 4:
 
@@ -103,7 +103,7 @@ label common_tpih(loop_n):
 
                 d "Ha, that is pretty tragic. I'll buy you a snack from the hospital vending machines if you want."
 
-                # Add 'Impatient' point
+                $ count_impatience = count_impatience + 1
 
             "What's going to happen when we get to the hospital?" if loop_n == 5:
 
@@ -134,7 +134,7 @@ label common_tpih(loop_n):
                 show dave:
                     ease 0.5 center # Move Dave back to centre
 
-                # Add 'Impatient' point
+                $ count_impatience = count_impatience + 1
 
             "How long are they going to make us stay here?" if loop_n == 6:
 
@@ -241,11 +241,13 @@ label common_tpih(loop_n):
 
                 p "{=internal}I really hope he doesn't lose all those memories forever."
 
-                # Add 'Impatient' point
+                $ count_impatience = count_impatience + 1
 
             # Add fancy coding to make .restofit have different bits to recognise it if you're filming
 
-            "Are you feeling okay?" if loop_n == 9:
+            "Are you feeling okay?" if loop_n >= 9: #and the player didn't already pick this option
+
+                # add code to remove this option from next loop(s)
 
                 d "Not really. My head's sore and I'm pretty sure I'm missing a big chunk of my memories."
                 
@@ -277,32 +279,49 @@ label common_tpih(loop_n):
 
                 p "I know this is a lot to take in, but please try to keep your voice down - we're still in A&E."
 
-                d "{size=-10}Holy shit...{/size}"
+                d "{size=-10}Holy shit...!{/size}"
+
+                $ count_impatience = count_impatience + 1
 
                 # BONUS - if needed, show Dave_confused again to set back to normal
 
-            
+            "Do you want me to get you some water or anything?" if loop_n >= 9: #and the player didn't already pick this option
 
-            
+                # add code to remove this option from next loop(s)
 
-                
+                d "Nah, I'm good thanks."
 
+                p "What do you want to do when you get home?"
 
+                d "Play some games, maybe? Something that lets me stay still for a while!"
 
+                p "Good plan."
 
+                d "Hey, where do I live at the moment, anyway?"
 
+                p "You're staying with your pal Stephanie, last I checked."
 
+                # BONUS - show Dave_perplexed if we have it
 
+                d "Wow, I'm missing a {i}lot{/i} of context if I've moved in there."
+               
+                d "...Am I dating her or something?!?"
 
+                p "No, I don't think so."
 
+                d "Why did I move in {i}there{/i}?"
 
-            
+                p "Only you could answer that, I'm afraid."
 
+                $ count_impatience = count_impatience + 1
 
+                # BONUS - if needed, show Dave_confused again to set back to normal
 
+    if loop_n >= 10: # Please check this bit definitely works!
 
+        p "{=internal}How long will I have to keep doing this? It's exhausting!" 
 
-
+        return         
 
 label .restofit:
 

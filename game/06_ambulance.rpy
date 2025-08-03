@@ -55,7 +55,7 @@ label ambulance:
 
     p """
     
-    "Sure."
+    Sure.
 
     {=internal}It's hard to gauge whether to mention my gender to people in situations like this.
     

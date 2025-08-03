@@ -9,11 +9,11 @@ label interruption1:
 
             hide phone
            
-            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his"
-           
-            # need code - if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling. then [playername]. make sure sentences end with full stops.
+            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref]."
            
             # move Dave left, show Kristina (a silhouette) right
+            show dave at left
+            show kristina at right
 
             kristina "Um, hi. Is Dave okay? He left me a voice note about having hurt his head..."
 
@@ -33,7 +33,8 @@ label interruption1:
 
                     kristina "Jesus, you really had me worried for a second there! Alright, I'll leave you to it."
 
-                    # exit Kristina (silhouette) right, move Dave to centre
+                    hide kristina
+                    show dave at center
 
         "Ignore the call":
     

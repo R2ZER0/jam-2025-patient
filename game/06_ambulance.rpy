@@ -8,7 +8,7 @@ label ambulance:
 
     p "Hey, um, I can squeeze in there too, right?"
 
-    show silhouette with fade # Need to fix this - want silhouette to fade in, not the whole screen!
+    show paramedic #with fade # Need to fix this - want silhouette to fade in, not the whole screen!
 
     paramedic "Are you family?"
 
@@ -20,9 +20,9 @@ label ambulance:
 
     scene bg ambulance with fade  # change background to ambulance interior
 
-    show dave confused at left with fade # Need to fix this - want Dave to fade in, not the whole screen!
+    show dave confused at left #with fade # Need to fix this - want Dave to fade in, not the whole screen!
 
-    show silhouette at right with fade # Fix this too show paramedic silhouette fade in right
+    show paramedic at right #with fade # Fix this too show paramedic silhouette fade in right
 
     p """
     

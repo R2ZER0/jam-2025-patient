@@ -104,9 +104,11 @@ label ambulance:
 
     show paramedic:
         ease 0.5 offscreenright
+
+    pause 0.5
     
     hide paramedic
 
-    pause 5
+    pause 1
 
     return

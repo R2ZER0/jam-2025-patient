@@ -12,7 +12,7 @@ label park:
     You arrive at the park. 
     It is a sunny day and there is plenty of green space.
     Your stepbrother, Dave, is a slim white guy in his twenties. 
-    He's wearing a T-shirt, tracksuit bottoms, and a helmet.
+    He's wearing glasses, a T-shirt, tracksuit bottoms, and a helmet.
     He notices you and smiles as you come over.
     """
 

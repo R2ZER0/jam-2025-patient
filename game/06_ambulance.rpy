@@ -49,7 +49,7 @@ label ambulance:
     # need misgendering coding for this bit
     # BONUS add the optional coding to skip the misgendering and instead get gendered correctly first time.
     
-    paramedic "Hey," #add gendered form of address based on wronggender, if m then "sir", if f then "ma'am", if panic then "uh... um... excuse me"
+    paramedic "Hey, [gender_formalism]." #gendered form of address based on wronggender, if m then "sir", if f then "ma'am", if panic then "uh... um... excuse me"
 
     paramedic "Please can you talk with him while I sort out his wrist? Just keep him calm till we arrive."
 

@@ -40,17 +40,17 @@ label start:
 
     call park
 
-    call dia_loop_1
+    call common_tpih(1)
 
-    call dia_loop_2
+    call common_tpih(2)
 
-    call dia_loop_3
+    call common_tpih(3)
 
     call ambulance
 
-    call dia_loop_4
+    call common_tpih(4)
 
-    call dia_loop_5
+    call common_tpih(5)
 
     call interruption1
 

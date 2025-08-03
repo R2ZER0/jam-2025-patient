@@ -54,5 +54,11 @@ label start:
 
     call interruption1
 
+    call hospital_ae
+
+    call hospital_corridor
+
+    
+
     # This ends the game.
     return

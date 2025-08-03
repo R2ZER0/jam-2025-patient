@@ -14,13 +14,15 @@ label hospital_ae:
 
     """
 
-    # I should add the interaction with the receptionist here.
+    # Need to add a basic silhouette for receptionist
 
     receptionist "Hi there, how can I help you?"
 
     p "My brother's got a head injury and probably a concussion. Can I fill out his paperwork?"
 
     receptionist "Of course, please bear with me for a moment..." # BONUS add misgendering segment here?
+
+    # hide receptionist
 
     p "{=internal}I zone out a little while filling in Dave's medical information. I've had to do this a few times, so I know the essentials by heart."
 
@@ -38,11 +40,11 @@ label hospital_ae:
 
     d "It's [gender_formalism], actually."
 
-    nurse "Oh, my mistake! Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor..."
+    nurse "Oh, my mistake! Sorry, xir. Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor..."
 
     p "Will do!"
 
-    # hide nurse (silhouette), move Dave
+    # hide nurse (silhouette), move Dave centre
 
     p "{=internal}He's such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me."
 

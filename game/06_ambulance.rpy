@@ -26,7 +26,7 @@ label ambulance:
 
     {=internal}Seriously, whoever decided on the next of kin rules was a jerk.
     
-    {=internal}Partners only count if they're married or in a civil partnership - hospitals ignore them otherwise, even if you live together.
+    {=internal}Partners only count if they're married or in a civil partnership - hospitals ignore them otherwise, even if they live together.
     
     {=internal}On the other hand, biological relatives get an automatic pass regardless of how you feel about each other.
 

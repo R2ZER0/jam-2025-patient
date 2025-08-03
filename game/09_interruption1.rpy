@@ -31,7 +31,7 @@ label interruption1
 
                     p "I think so. He's still conscious and talking and stuff."
 
-                    kristina "Jesus, you really had me worried for a second there. Okay, I'll leave you to it."
+                    kristina "Jesus, you really had me worried for a second there! Alright, I'll leave you to it."
 
                     # exit Kristina (silhouette) right, move Dave to centre
 

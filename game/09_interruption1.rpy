@@ -9,7 +9,7 @@ label interruption1:
 
             hide phone
            
-            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref]."
+            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref], [player_name]."
            
             # move Dave left, show Kristina (a silhouette) right
             show dave at left

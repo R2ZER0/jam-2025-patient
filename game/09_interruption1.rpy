@@ -1,13 +1,13 @@
-label interruption1
+label interruption1:
 
-    # Play phone animation, possibly with a ringtone sound effect?
+    call ring_phone
 
     d "Oh, my phone's ringing. Could you answer it, [player_name]?"
 
     menu:
-        Pick up:
-           
-            # Make sure phone animation and ringtone have ended.
+        "Pick up":
+
+            hide phone
            
             p "Hi, you've reached Dave's phone but he's unavailable right now. This is his"
            
@@ -35,10 +35,10 @@ label interruption1
 
                     # exit Kristina (silhouette) right, move Dave to centre
 
-        Ignore the call:
+        "Ignore the call":
     
             p "Actually, let's leave it. You can call them back when you're feeling better."
 
             d "Yeah, okay."
 
-            # Make sure phone animation and ringtone have ended.
+            hide phone

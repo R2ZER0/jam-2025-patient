@@ -49,11 +49,15 @@ label common_tpih(loop_n):
 
             "What happened to you?" if loop_n == 2:
 
-                d "Dialogue"
+                d "I don't really remember."
 
-                p "ZOMG"
+                stranger "One of his jump-stilts caught on the other and he tripped headfirst onto the pavement."
 
-            
+                p "Ouch."
+
+            "This sucks, huh?" if loop_n == 3:
+
+                d "Sure does."
 
 label .restofit:
 

@@ -1,0 +1,44 @@
+label interruption1
+
+    # Play phone animation, possibly with a ringtone sound effect?
+
+    d "Oh, my phone's ringing. Could you answer it, [player_name]?"
+
+    menu:
+        Pick up:
+           
+            # Make sure phone animation and ringtone have ended.
+           
+            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his"
+           
+            # need code - if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling. then [playername]. make sure sentences end with full stops.
+           
+            # move Dave left, show Kristina (a silhouette) right
+
+            kristina "Um, hi. Is Dave okay? He left me a voice note about having hurt his head..."
+
+            p "{=internal}Guess I wasn't the only one he called."
+
+            menu:
+                
+                "Don't worry, I'm with him and I'm taking him to hospital to get checked over.":
+
+                    kristina "That's a relief. Thanks, [player_name] - I'll leave you to it!"
+
+                "We're just waiting for an ambulance.":
+
+                    kristina "Oh my God, is he gonna be okay?"
+
+                    p "I think so. He's still conscious and talking and stuff."
+
+                    kristina "Jesus, you really had me worried for a second there. Okay, I'll leave you to it."
+
+                    # exit Kristina (silhouette) right, move Dave to centre
+
+        Ignore the call:
+    
+            p "Actually, let's leave it. You can call them back when you're feeling better."
+
+            d "Yeah, okay."
+
+            # Make sure phone animation and ringtone have ended.

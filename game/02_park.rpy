@@ -16,13 +16,16 @@ label park:
     He notices you and smiles as you come over.
     """
 
-    p "{=internal}I can see his jump-stilts sitting abandoned on the floor next to him.
-    Guess that explains how he got hurt - those things are not the safest.
-    In fact, they look almost comically unsafe for human use."
+    p "{=internal}I can see his jump-stilts sitting abandoned on the floor next to him."
 
     # BONUS: display pop-up image of some jump-stilts for reference, since most people won't know what they are
     # BONUS: add alt text "The jump-stilts are a pair of contraptions with fairly complicated-looking parts.
     # Each one has a metal section to strap the user's calf, a place for their foot to rest on, and attached to various springs is a long, curved blade like a prosthetic leg with a rubber tip."
+
+    
+    p "{=internal}Guess that explains how he got hurt - those things are not the safest.
+    In fact, they look almost comically unsafe for human use."
+
 
     p "Dave, there you are! I've been so worried!"
 
@@ -67,7 +70,7 @@ label park:
 
     p "Try to keep it still, then, just in case it's broken."
 
-    p "{=internal}What on Earth happened to you?"
+    p "{=internal}Like the memory loss wasn't bad enough!"
 
     d "...Um, this might be a weird question, but what year is it?"
 
@@ -98,6 +101,8 @@ label park:
     show dave smiling
 
     d "Yeah!"
+
+# Fix the following - needs to be broken into smaller chunks, but I'm not sure how to do monologue and internal simultaneously.
 
     p "{=internal}We settle down on a bench to bask in the sunlight while we wait. 
     I look up first aid for head injuries on my phone, just to be sure.

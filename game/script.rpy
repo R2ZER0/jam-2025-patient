@@ -4,7 +4,7 @@ default gender = "nb"
 default wrong_gender = "f"
 default sibling_ref = "stepsibling"
 default gender_formalism = "xir"
-default wrong_gender_formalism = None
+default wrong_gender_formalism = "ma'am"
 default count_patience = 0
 default count_impatience = 0
 

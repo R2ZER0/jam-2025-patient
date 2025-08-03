@@ -25,7 +25,19 @@ label start:
 
     call park
 
-    call dia_loop_1 
+    call dia_loop_1
+
+    call dia_loop_2
+
+    call dia_loop_3
+
+    call ambulance
+
+    call dia_loop_4
+
+    call dia_loop_5
+
+    call interruption1
 
     # This ends the game.
     return

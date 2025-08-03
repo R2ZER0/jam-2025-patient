@@ -91,7 +91,7 @@ label ambulance:
 
             {=internal}Just another little wound that will scar over with time.
 
-            {=internal}I wish people would just {i}ask{/i} what to call me instead of assuming... 
+            {=internal}I wish people would just {u}ask{/u} what to call me instead of assuming... 
 
             """
 

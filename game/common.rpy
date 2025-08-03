@@ -193,7 +193,7 @@ label common_tpih(loop_n):
 
                 {=internal}It's got more obvious over the years, whatever it is.
 
-                {=internal}She causes a scene wherever she goes and she never listens to us.
+                {=internal}She causes a scene wherever she goes and she never listens to any of us.
 
                 {=internal}I wouldn't want to deal with that while I had a concussion, either.
 

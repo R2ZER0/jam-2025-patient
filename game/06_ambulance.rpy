@@ -4,9 +4,11 @@ label ambulance:
     
     p "{=internal}The paramedic wastes no time, directing Dave into the back of the ambulance."
 
+    hide dave with fade
+
     p "Hey, um, I can squeeze in there too, right?"
 
-    show silhouette
+    show silhouette with fade
 
     paramedic "Are you family?"
 

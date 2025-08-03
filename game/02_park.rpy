@@ -102,16 +102,21 @@ label park:
 
     d "Yeah!"
 
-# Fix the following - needs to be broken into smaller chunks, but I'm not sure how to do monologue and internal simultaneously.
-
-    p "{=internal}We settle down on a bench to bask in the sunlight while we wait. 
+    p """
+    
+    {=internal}We settle down on a bench to bask in the sunlight while we wait. 
     I look up first aid for head injuries on my phone, just to be sure.
-    'Check if the patient is responsive and look out for signs of concussion. 
+
+    {=internal}'Check if the patient is responsive and look out for signs of concussion. 
     Ensure their airways are clear and they are breathing.
-    Call an ambulance immediately if you suspect a serious head injury.
-    Don't remove their helmet if they're wearing one, unless it's absolutely necessary to clear their airway.'
-    Pretty much what I half-remembered from my first aid course. Good.
-    A few moments pass in comfortable silence, until..."
+
+    {=internal}Call an ambulance immediately if you suspect a serious head injury.
+
+    {=internal}Don't remove their helmet if they're wearing one, unless it's absolutely necessary to clear their airway.'
+    
+    {=internal}Pretty much what I half-remembered from my first aid course. Good.
+
+    {=internal}A few moments pass in comfortable silence, until..."
 
     # change Dave_smiling to Dave_confused
 

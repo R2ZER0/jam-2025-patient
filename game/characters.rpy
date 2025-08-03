@@ -3,7 +3,7 @@ define d = Character("Dave")
 # p is Player, defined in script.rpy
 
 # Others
-define stranger = Character("stranger")
+define stranger = Character("Stranger")
 define paramedic = Character("Paramedic")
 define nurse = Character("Nurse")
 

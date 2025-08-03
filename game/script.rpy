@@ -66,6 +66,8 @@ label start:
 
     d "You're the best, [player_name]!"
 
+    hide dave
+
     "We ran out of time to wrap up this game properly, but we hope you enjoyed it!"
 
     "Credits"
@@ -74,11 +76,13 @@ label start:
     
     "Coding by Rikki"
 
-    "Dave sprites drawn by Jo"
+    "Dave sprites by Jo"
+
+    "Park background by Rikki"
       
-    "Silhouette art from Victeezy.com."
+    "Silhouette art from Victeezy.com"
     
-    "Backgrounds are edited versions of free-to-use, no-attribution images from Pixabay - except for the park, which Rikki drew."
+    "All other backgrounds are edited versions of free-to-use, no-attribution images from Pixabay"
 
     # This ends the game.
     return

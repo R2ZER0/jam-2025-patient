@@ -116,7 +116,7 @@ label park:
     
     {=internal}Pretty much what I half-remembered from my first aid course. Good.
 
-    {=internal}A few moments pass in comfortable silence, until..."
+    {=internal}A few moments pass in comfortable silence, until...
 
     """
 

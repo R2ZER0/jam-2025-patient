@@ -1,4 +1,6 @@
 label ambulance:
+    $ location = "ambulance"
+    $ location_human = "An ambulance."
     
     p "{=internal}The paramedic wastes no time, directing Dave into the back of the ambulance."
 

@@ -1,7 +1,3 @@
-default player_name = "Phoenix"
-default gender = "nb"
-default wrong_gender = "f"
-
 label ask_player_info:
     # ask for player's info
 
@@ -10,34 +6,46 @@ label ask_player_info:
     if player_name == "":
         $ player_name = "Phoenix" # default name if none is given
 
-menu start_ask_gender:
+menu .start_ask_gender:
     "What's your gender?"
 
     "Non-binary":
         $ gender = "nb"
-        jump nb_what_typical_mistake
+        jump .nb_what_typical_mistake
 
     "Female": 
         $ gender = "f"
         $ wrong_gender = "m"
-        return
+        jump .set_variables
 
     "Male":
         $ gender = "m"
         $ wrong_gender = "f"
-        return
+        jump .set_variables
 
-menu nb_what_typical_mistake:
+menu .nb_what_typical_mistake:
     "And what binary gender do you typically get mistaken for?"
 
     "Male":
         $ wrong_gender = "m"
-        return
+        jump .set_variables
 
     "Female":
         $ wrong_gender = "f"
-        return
+        jump .set_variables
 
     "I present myself as quite androgynous, so they tend to just panic":
         $ wrong_gender = "panic"
-        return
+        jump .set_variables
+
+label .set_variables:
+    # if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling.
+    if gender == "m":
+        $ sibling_ref = "stepbrother"
+    elif gender == "f":
+        $ sibling_ref = "stepsister"
+    else:
+        $ sibling_ref = "stepsibling"
+
+
+    return

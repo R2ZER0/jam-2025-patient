@@ -3,7 +3,8 @@ label park:
     # Fade in meadows
     scene bg meadow with fade
 
-    $ current_location = "The park."
+    $ location = "park"
+    $ location_human = "The park."
 
     # show defaults to centre
     show dave smiling
@@ -33,13 +34,11 @@ label park:
 
     p "...Yeah, I know you did, you told me so like ten minutes ago."
 
-    # Change sprite from Dave_smiling to Dave_confused
     show dave confused
     alt "Dave looks puzzled."
 
     d "I did?"
 
-    # Move Dave_confused to the left, add Silhouette_1 to the right.
     alt "A stranger nearby inserts themself into your conversation."
     show dave confused at left with move
     show stranger at right
@@ -54,7 +53,6 @@ label park:
 
     stranger "No problem."
 
-    # Exit Silhouette_1 to the right, move Dave_confused to centre again.
     hide stranger
     show dave confused at center with move
 
@@ -120,7 +118,7 @@ label park:
 
     """
 
-    # change Dave_smiling to Dave_confused
+    show dave confused
 
     d "Hey [player_name], I think I hit my head - it really hurts."
 

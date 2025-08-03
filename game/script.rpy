@@ -1,7 +1,20 @@
 ﻿# The script of the game goes in this file.
+default player_name = "Phoenix"
+default gender = "nb"
+default wrong_gender = "f"
+default sibling_ref = "stepsibling"
+default count_patience = 0
+default count_impatience = 0
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+# location can be:
+# * travelling
+# * park
+# * ambulance
+# * hospital_ae
+# * hospital_corridor
+# Start travelling
+default location = "travelling"
+default location_human = "Rushing"
 
 
 # The game starts here.

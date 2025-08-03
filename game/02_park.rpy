@@ -125,3 +125,5 @@ label park:
     p "Yeah, man, you did. We're just waiting for an ambulance now."
 
     d "Oh, okay. That makes sense."
+
+    return

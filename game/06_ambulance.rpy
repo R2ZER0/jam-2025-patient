@@ -6,7 +6,7 @@ label ambulance:
 
     p "Hey, um, I can squeeze in there too, right?"
 
-    # show silhouette
+    show silhouette
 
     paramedic "Are you family?"
 
@@ -16,9 +16,11 @@ label ambulance:
 
     p "Thanks."
 
-    # change background to ambulance interior
+    scene bg ambulance with fade  # change background to ambulance interior
 
-    # show Dave left, paramedic silhouette right
+    show dave confused at left with fade # show Dave left
+
+    show silhouette at right with fade # show paramedic silhouette right with move
 
     p """
     

@@ -58,7 +58,7 @@ label start:
 
     call hospital_corridor
 
-    show dave_smiling 
+    show dave smiling
 
     d "Thank you so much for looking after me while I was concussed!"
 

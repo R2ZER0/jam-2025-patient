@@ -2,6 +2,8 @@ label ambulance:
     $ location = "ambulance"
     $ location_human = "An ambulance."
     
+    p "{=internal}A wailing siren alerts us to the ambulance's arrival. It pulls up right by us in the park."
+    
     p "{=internal}The paramedic wastes no time, directing Dave into the back of the ambulance."
 
     hide dave with fade # Need to fix this - want Dave to fade out, not the whole screen!
@@ -70,13 +72,13 @@ label ambulance:
         "Speak up.":
 
             if wrong_gender_formalism:
-                p "It's actually [gender_formalism], not [wrong_gender_formalism]."
+                p "It's actually [gender_formalism], not [wrong_gender_formalism]." # something in this section is wack. I tried fixing wronggenderformalism so that it says 'uh... you there' instead of 'None'
             else:
                 p "It's actually [gender_formalism]."
 
             p "Or you can just call me [player_name]."
 
-            paramedic "Oh, sorry [gender_formalism]."
+            paramedic "Oh, sorry [gender_formalism]." # This said 'xir' during Anthony's run instead of 'sir'. Why?
 
             p "{=internal}I never know what to say when they apologise. 'Apology accepted' just feels passive-aggressive..."
 

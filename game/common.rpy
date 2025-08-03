@@ -53,11 +53,166 @@ label common_tpih(loop_n):
 
                 stranger "One of his jump-stilts caught on the other and he tripped headfirst onto the pavement."
 
-                p "Ouch."
+                p "Ouch." # No 'Impatient' points should get added to this one.
 
-            "This sucks, huh?" if loop_n == 3:
+            "What's taking that ambulance so long?" if loop_n == 3:
 
-                d "Sure does."
+                d "You called an ambulance? Seems like overkill..."
+
+                p "{=internal}I wish I could agree. I shouldn't let on how bad things are, though."
+
+                p "Well, y'know, better safe than sorry!"
+
+                d "I guess, but it's kind of embarrassing."
+
+                p "{=internal}If - I mean, {u}when{/u} - you get better, I'm gonna tell all your friends how skewed your priorities are."
+                
+                d "Plus, won't they be annoyed we called them out over a little bump to the head?"
+
+                p "Trust me, we're doing the right thing."
+
+                d "If you say so..."
+
+                # Add 'Impatient' point.
+
+            "I've never been in an ambulance before." if loop_n == 4:
+
+                d "Me neither. Well, not that I can remember."
+
+                p "{=internal}Oh, the irony."
+
+                d "I wonder if we're allowed to take selfies in here."
+
+                p "That's what you're focusing on right now?!?"
+
+                d "What? It'll make for a cool anecdote someday. I might as well have a picture to go with it."
+
+                p "I can't argue with that logic."
+
+                p "{=internal}I really hope this'll just be a funny anecdote someday..."
+
+                d "What's that look for?"
+
+                p "What look?"
+
+                d "I dunno, sort of zoned-out and... sad, maybe?"
+
+                p "{=internal}Damn, I need to work on my bedside manner."
+
+                p "Just thinking about how I skipped lunch to be here."
+
+                d "Ha, that is pretty tragic. I'll buy you a snack from the hospital vending machines if you want."
+
+                # Add 'Impatient' point
+
+            "What's going to happen when we get to the hospital?" if loop_n == 5:
+
+                show dave center: 
+
+                    ease 0.5 left # Need to test this, make sure it works!
+                
+                show paramedic right
+                
+                paramedic "I'll make sure Dave here gets assessed by a doctor as soon as possible."
+
+                d "But there are always massive queues in A&E, though."
+
+                paramedic "There are, but we prioritise urgent cases."
+
+                d "I thought urgent cases were like heart attacks and nasty car crashes and stuff."
+
+                paramedic "Those can be extremely urgent, yes. But some concussions are urgent too, which is why the doctor should assess you promptly."
+
+                d "Oh. Okay."
+
+                p "{=internal}Dave's trying to put on a brave face, but I can see through it. He's totally stressing out."
+
+                p "{=internal}In hindsight, maybe this wasn't the most reassuring topic to bring up."
+
+                hide paramedic
+
+                show dave:
+                    ease 0.5 center # Move Dave back to centre
+
+                # Add 'Impatient' point
+
+            "How long are they going to make us stay here?" if loop_n == 6:
+
+                d "No idea, they didn't say."
+
+                p "{=internal}Or you just instantly forgot..."
+
+                p "I guess we just play the waiting game, then."
+
+                d "What, you wanna play 'I Spy' or something?"
+
+                p "No, it's just what people say."
+
+                d "Which people?"
+
+                p "I dunno."
+
+                d "Seems weird to talk about a game and not play one."
+
+                p "{=internal}He's actually pulling out his phone to look it up."
+                
+                p "{=internal}Never change, bro."
+
+                d "Oh, it's a reference to tactics, apparently."
+                
+                d "It means holding off on doing stuff and observing so you can figure out the best course of action."
+
+                p "{=internal}Huh, I never knew that. I always thought it was just a silly figure of speech."
+
+                p "You're such a word nerd."
+
+            "Do you want me to tell Mum and John about your accident?" if loop_n == 7:
+                # or if this wasn't selected in loop_7, show it again in loop_8
+
+                d "Nah. They'd only worry."
+
+                p "Fair."
+
+                d "Plus, you know Megan would make Dad drive her up here even if we ask her not to."
+
+                p "Heh, that's {i}exactly{/i} what Mum would do."
+
+                d "And you know what they're like - I don't want to inflict that on the A&E staff."
+
+                p "Yeah, me neither."
+                
+                p """
+                
+                {=internal}He's being polite. We both know it's my mum who's the core of the issue.
+
+                {=internal}None of us know exactly what's up with her, but she's not doing well.
+
+                {=internal}There's something extremely unusual about how she thinks and acts.
+
+                {=internal}She refuses to let a doctor see her, though, so who knows what's causing it!
+
+                {=internal}It's got more obvious over the years, whatever it is.
+
+                {=internal}She causes a scene wherever she goes and she never listens to us.
+
+                {=internal}I wouldn't want to deal with that while I had a concussion, either.
+
+                We should probably update them in a day or two, once you've had a chance to recover.
+
+                """
+                d "Good idea."
+
+                p "{=internal}Assuming that we ever get out of this place..."
+
+                # Do not add any points
+
+            
+
+
+
+
+
+
 
 label .restofit:
 

@@ -14,9 +14,9 @@
   
     "Park background from" # INSERT SOURCE HERE
     
-    "Silhouette art from Victeezy.com"
+    "Silhouette art from Victeezy.com" # check if we need to cite specific artists, add details if so
     
-    "All other backgrounds are edited versions of free-to-use, no-attribution images from Pixabay"
+    "All other backgrounds are edited versions of free-to-use, no-attribution-needed images from Pixabay" # it would be polite to cite the specific artists, even though we aren't required to. please do that.
 
     "This game (or at least, the rough draft of it) was created for the 2025 GMTK Game Jam. The prompt was 'Loop'."
 

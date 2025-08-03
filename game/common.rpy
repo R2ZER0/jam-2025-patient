@@ -206,13 +206,14 @@ label common_tpih(loop_n):
 
                 # Do not add any points
 
-            "How much do you remember?" if loop_n == 8 and # "Do you want me to tell Mum and John?" was picked in loop_7:
+            "How much do you remember?" if loop_n == 8: #and
+            # add code for "Do you want me to tell Mum and John?" was picked in loop_7:
 
                 d "About what?"
 
-                p "Uh... do you remember what movie we saw last week?"
+                p "Anything! Do you remember what movie we saw last week?"
 
-                d "Hmmm."
+                d "Hmm..."
 
                 p "Don't strain yourself, they said to take it easy."
 
@@ -235,6 +236,63 @@ label common_tpih(loop_n):
                 """
 
                 p "{=internal}Yeah, he came back this spring. Guess he's still only remembering up to November."
+
+                p "That tracks."
+
+                p "{=internal}I really hope he doesn't lose all those memories forever."
+
+                # Add 'Impatient' point
+
+            # Add fancy coding to make .restofit have different bits to recognise it if you're filming
+
+            "Are you feeling okay?" if loop_n == 9:
+
+                d "Not really. My head's sore and I'm pretty sure I'm missing a big chunk of my memories."
+                
+                d "In fact, I'm not even sure which year of uni I'm in... Can you tell me?"
+
+                p "Well, all of your friends have graduated"
+
+                # BONUS - show Dave_flabbergasted
+
+                p "and you've just finished your... what was it called...?"
+
+                d "Did you just say {i}all of my friends have GRADUATED{/i}?!?"
+
+                p "Yeah, and you've just finished your placement."
+
+                # BONUS - show Dave_dismayed
+
+                d "Oh {i}shit!{/i}"
+
+                p "{=internal}Oops."
+
+                d "I've {i}finished{/i} my placement?"
+
+                p "Yes."
+
+                d "{i}Fucking hell!{/i}"
+
+                p "{=internal}So much for keeping him calm..."
+
+                p "I know this is a lot to take in, but please try to keep your voice down - we're still in A&E."
+
+                d "{size=-10}Holy shit...{/size}"
+
+                # BONUS - if needed, show Dave_confused again to set back to normal
+
+            
+
+            
+
+                
+
+
+
+
+
+
+
 
 
 

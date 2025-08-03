@@ -1,8 +1,3 @@
-default player_name = "Phoenix"
-default gender = "nb"
-default wrong_gender = "f"
-default sibling_ref = "stepsibling"
-
 label ask_player_info:
     # ask for player's info
 

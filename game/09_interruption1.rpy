@@ -47,6 +47,10 @@ label interruption1:
 
             hide phone
 
+    d "Thanks - I don't really feel well enough to update people just now."
+
+    p "No problem."
+    
     p "{=internal}We've made it to the hospital."
 
     return

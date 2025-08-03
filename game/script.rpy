@@ -58,31 +58,8 @@ label start:
 
     call hospital_corridor
 
-    show dave smiling
+    # call everything else that needs calling, please
 
-    d "Thank you so much for looking after me while I was concussed!"
-
-    d "It would've been really scary to go through by myself."
-
-    d "You're the best, [player_name]!"
-
-    hide dave
-
-    "We ran out of time to wrap up this game properly, but we hope you enjoyed it!"
-
-    "Credits"
-    
-    "Writing by Jo"
-    
-    "Coding by Rikki"
-
-    "Dave sprites by Jo"
-
-    "Park background by Rikki"
-      
-    "Silhouette art from Victeezy.com"
-    
-    "All other backgrounds are edited versions of free-to-use, no-attribution images from Pixabay"
 
     # This ends the game.
     return

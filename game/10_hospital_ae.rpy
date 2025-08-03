@@ -14,7 +14,7 @@ label hospital_ae:
 
     """
 
-    # Need to add a basic silhouette for receptionist
+    show receptionist
 
     receptionist "Hi there, how can I help you?"
 
@@ -22,11 +22,12 @@ label hospital_ae:
 
     receptionist "Of course, please bear with me for a moment..." # BONUS add misgendering segment here?
 
-    # hide receptionist
+    hide receptionist
 
     p "{=internal}I zone out a little while filling in Dave's medical information. I've had to do this a few times, so I know the essentials by heart."
 
-    # show Dave_smiling (minus helmet?) left and a nurse (silhouette) right
+    show dave smiling at left # TODO minus helmet?
+    show nurse at right
 
     nurse """
     
@@ -44,10 +45,13 @@ label hospital_ae:
 
     p "Will do!"
 
-    # hide nurse (silhouette), move Dave centre
+    hide nurse
+    show dave at center
 
     p "{=internal}He's such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me."
 
     p "Thanks."
     
     d "Anytime."
+
+    return

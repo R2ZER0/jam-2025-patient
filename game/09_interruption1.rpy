@@ -25,7 +25,7 @@ label interruption1:
 
                     kristina "That's a relief. Thanks, [player_name] - I'll leave you to it!"
 
-                "We're just waiting for an ambulance.":
+                "We're in an ambulance on our way to A&E.":
 
                     kristina "Oh my God, is he gonna be okay?"
 

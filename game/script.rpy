@@ -3,6 +3,8 @@ default player_name = "Phoenix"
 default gender = "nb"
 default wrong_gender = "f"
 default sibling_ref = "stepsibling"
+default gender_formalism = "xir"
+default wrong_gender_formalism = None
 default count_patience = 0
 default count_impatience = 0
 

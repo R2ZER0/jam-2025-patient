@@ -40,11 +40,28 @@ menu .nb_what_typical_mistake:
 
 label .set_variables:
     # if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling.
+    # formalism: m = sir, f = ma'am, nb = xir if you insist on being formal. 
+    # insert incorrect version based on wronggender. if wronggender = panic, cut ", not y".
     if gender == "m":
         $ sibling_ref = "stepbrother"
+        $ gender_formalism = "sir"
+
     elif gender == "f":
         $ sibling_ref = "stepsister"
+        $ gender_formalism = "ma'am"
+
     else:
         $ sibling_ref = "stepsibling"
+        $ gender_formalism = "xir"
+
+
+    if wrong_gender == "m":
+        $ wrong_gender_formalism = "sir"
+    
+    elif wrong_gender == "f":
+        $ wrong_gender_formalism = "ma'am"
+
+    else:
+        $ wrong_gender_formalism = None
 
     return

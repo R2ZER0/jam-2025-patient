@@ -69,11 +69,14 @@ label ambulance:
 
         "Speak up.":
 
-            p "It's actually 'x', not 'y'." #insert correct version based on gender. m = sir, f = ma'am, nb = xir if you insist on being formal. insert incorrect version based on wronggender. if wronggender = panic, cut ", not y".
+            if wrong_gender_formalism:
+                p "It's actually [gender_formalism], not [wrong_gender_formalism]."
+            else:
+                p "It's actually [gender_formalism]."
 
             p "Or you can just call me [player_name]."
 
-            paramedic "Oh, sorry 'x'."
+            paramedic "Oh, sorry [gender_formalism]."
 
             p "{=Internal}I never know what to say when they apologise. 'Apology accepted' just feels passive-aggressive..."
 
@@ -96,3 +99,14 @@ label ambulance:
             """
 
     # move Dave_confused to centre, exit right paramedic
+    show dave confused:
+        ease 0.5 center
+
+    show paramedic:
+        ease 0.5 offscreenright
+    
+    hide paramedic
+
+    pause 5
+
+    return

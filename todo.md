@@ -5,6 +5,7 @@
 
 # Next
 
+* Make background of the textbox solid rather than translucent
 * Custom quit button
 * Define flags and counters
 * Write scene content 

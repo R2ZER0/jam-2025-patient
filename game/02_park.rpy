@@ -118,6 +118,8 @@ label park:
 
     {=internal}A few moments pass in comfortable silence, until..."
 
+    """
+
     # change Dave_smiling to Dave_confused
 
     d "Hey [player_name], I think I hit my head - it really hurts."

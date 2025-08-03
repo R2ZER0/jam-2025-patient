@@ -206,6 +206,38 @@ label common_tpih(loop_n):
 
                 # Do not add any points
 
+            "How much do you remember?" if loop_n == 8 and # "Do you want me to tell Mum and John?" was picked in loop_7:
+
+                d "About what?"
+
+                p "Uh... do you remember what movie we saw last week?"
+
+                d "Hmmm."
+
+                p "Don't strain yourself, they said to take it easy."
+
+                d "But you asked, so I'm trying to remember!"
+
+                p "Don't worry about it."
+
+                d "What was the movie?"
+
+                p "Ghostbusters. But I meant like, what do you remember in general?"
+
+                d """
+                
+                I'm not sure what happened to me or how I got here.
+
+                Before that... I've been living in London for a few months, working on placement for my uni course.
+
+                It's been okay, but I miss my friends.
+
+                """
+
+                p "{=internal}Yeah, he came back this spring. Guess he's still only remembering up to November."
+
+
+
             
 
 

@@ -7,6 +7,7 @@ default gender_formalism = "xir"
 default wrong_gender_formalism = "ma'am"
 default count_patience = 0
 default count_impatience = 0
+default count_filmed_loops = 0
 
 # choice flags
 default chose_tell_option = False
@@ -36,6 +37,7 @@ label start:
     $ chose_tell_option = False
     $ chose_feeling_ok_option = False
     $ is_filming = False
+    $ count_filmed_loops = 0
 
     # 
     call ask_player_info

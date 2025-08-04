@@ -30,6 +30,12 @@ label common_tpih(loop_n):
 
             p "{=internal}Even if Dave won't remember this, I'm proud that I've tried my absolute best to be reassuring."
 
+    if is_filming:
+
+        p "{=internal}Ha, at least now I'll have video evidence of how much he's been asking me this!"
+
+        $ count_filmed_loops = count_filmed_loops + 1
+
     if loop_n == 1:
 
         menu: 
@@ -203,7 +209,6 @@ label common_tpih(loop_n):
 
                 p "{=internal}Assuming that we ever get out of this place..."
 
-                
                 # Do not add any points
 
             "How much do you remember?" if loop_n == 8 and chose_tell_option:
@@ -329,9 +334,7 @@ label common_tpih(loop_n):
 
     if loop_n >= 10: # Please check this bit definitely works!
 
-        p "{=internal}How long will I have to keep doing this? It's exhausting!" 
-
-        return         
+        p "{=internal}How long will I have to keep doing this? It's exhausting!"        
 
 label .restofit:
 
@@ -346,6 +349,10 @@ label .restofit:
             d "July?"
             p "Yep."
             d "Nailed it."
+
+    if is_filming:
+
+        p "{=internal}I bet he'll find his own sass hilarious when he sees this footage."
 
     # "Place"
 
@@ -370,10 +377,38 @@ label .restofit:
             p "{=internal}And to nobody's surprise, he tries to touch his head, but his helmet gets in the way."
             show dave smiling
             d "Good thing I was wearing this!"
+            if is_filming:
+                p "{=internal}Thank goodness we recorded that for posterity."
+                p "{=internal}Nobody would've believed me how many times I sat through it, otherwise."
 
-    if location == "park" or location == "ambulance":
-        "Yeah, your wrist might be sprained or broken, I'm not sure."
-    else:
-        "Yeah, the medics reckon your wrist is probably broken, sorry."
+        "Yeah, your wrist might be sprained or broken, I'm not sure." if location == "park" or location == "ambulance":
+
+        "Yeah, the medics reckon your wrist is probably broken, sorry." if location != "park" and location != "ambulance":
 
     $ count_patience = count_patience + 1
+
+    if is_filming:
+
+        d "Hey, why are you filming me?"
+
+        p "Because you asked me to. Do you want me to stop?"
+
+        d "Uh, I dunno - do you think you have enough footage?"
+
+        if count_filmed_loops < 2:
+
+            p "Not quite yet."
+
+            d "Keep going, then. I'm sure my future self will thank me for the entertainment."
+
+        else:
+
+            p "Well, I have managed to catch at least one memory loop on camera..."
+            
+            p "Probably, yeah."
+
+            d "Cool, that's a wrap, then!"
+
+            $ is_filming = False
+
+    return  

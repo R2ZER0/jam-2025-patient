@@ -1,1 +1,78 @@
-# Need to copy content from interruption2 and then edit to make it fresh and feature Stuart
+label interruption3:
+
+    call ring_phone
+
+    d "Oh, there goes my phone again. Care to do the honours, [player_name]?"
+
+    menu:
+        "Pick up":
+
+            hide phone
+           
+            p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref], [player_name]."
+           
+            # move Dave left, show Stuart (a silhouette) right
+            show dave at left
+            show stuart at right
+
+            stuart "Hi [playername], it's Louis. Just got a message from Dave that he hurt his head. Was it serious?"
+
+            p "{=internal}I'm beginning to think Dave called everyone in his contacts about this..."
+
+            menu:
+                
+                "Hopefully not. Don't worry, I'm with him and I'm taking him to hospital to get checked over.":
+
+                    stuart "Nice one. I look forward to hearing about his shenanigans when he's recovered."
+
+                    p "Me too."
+
+                    stuart "Alright, see ya!"
+
+                    hide stuart
+                    show dave at center 
+
+                    p "I'm glad you have pals who care about you."
+
+                    d "Same!"
+
+                    p "I do kinda wish you hadn't called so many of them, though!"
+
+                    d "Huh, I can't remember calling anyone."
+
+                    p "I mean, I'm glad you called me, otherwise I wouldn't be here. So good job, I guess."
+
+                    d "Thanks."
+
+                "Might be - his memory's a bit damaged. We're going to A&E to get him checked over.":
+
+                    stuart "Oh damn! Keep me posted when you get a chance, yeah?"
+
+                    p "Will do."
+
+                    hide louis
+                    show dave at center
+
+                    # show dave_confused
+
+                    d "You make me sound like an antique or something."
+
+                    d "'A bit damaged but still has some value to the right person.'"
+
+                    p "Sorry, I didn't mean it like that."
+
+                    # show dave_smiling
+
+        "Ignore the call":
+    
+            p "Actually, let's leave it. You can call them back when you're feeling better."
+
+            d "Yeah, okay."
+
+            hide phone
+
+    d "Thanks - I don't really feel up to socialising."
+
+    p "No problem."
+
+    return

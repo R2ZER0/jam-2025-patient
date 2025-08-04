@@ -13,7 +13,7 @@ label interruption2:
            
             # move Dave left, show Louis (a silhouette) right
             show dave at left
-            show lauis at right
+            show louis at right
 
             louis "Hey [playername], Louis here. Dave left me a voicemail saying he'd hurt his head. Is he okay?"
 
@@ -82,7 +82,5 @@ label interruption2:
     d "Thanks - it's good to have someone else to handle this stuff."
 
     p "No problem."
-    
-    p "{=internal}We've made it to the hospital."
 
     return

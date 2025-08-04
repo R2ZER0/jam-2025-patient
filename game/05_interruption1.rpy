@@ -10,8 +10,11 @@ label interruption1:
             hide phone
            
             p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref], [player_name]."
+
+            p "{=internal}Oops, I should've left out the 'step' part... but the paramedic isn't listening. Phew."
+
+            p "{=internal}They probably aren't allowed to kick people out of a moving vehicle anyway."
            
-            # move Dave left, show Kristina (a silhouette) right
             show dave at left
             show kristina at right
 
@@ -51,6 +54,6 @@ label interruption1:
 
     p "No problem."
     
-    p "{=internal}We've made it to the hospital."
+    p "{=internal}The ambulance finally stops moving. We've made it to the hospital."
 
     return

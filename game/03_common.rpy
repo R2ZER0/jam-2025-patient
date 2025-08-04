@@ -1,4 +1,3 @@
-
 # Use with "call common_tpih", not jump
 
 label common_tpih(loop_n):
@@ -191,7 +190,7 @@ label common_tpih(loop_n):
 
                 {=internal}She refuses to let a doctor see her, though, so who knows what's causing it!
 
-                {=internal}It's got more obvious over the years, whatever it is.
+                {=internal}It's been getting more obvious over the years, whatever it is.
 
                 {=internal}She causes a scene wherever she goes and she never listens to any of us.
 

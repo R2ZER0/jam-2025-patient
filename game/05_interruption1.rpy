@@ -14,9 +14,13 @@ label interruption1:
             p "{=internal}Oops, I should've left out the 'step' part... but the paramedic isn't listening. Phew."
 
             p "{=internal}They probably aren't allowed to kick people out of a moving vehicle anyway."
-           
-            show dave at left
-            show kristina at right
+
+            show dave confused at center:
+                ease 0.5 left
+
+            show kristina at offscreenright:
+                ease 0.5 right
+
 
             kristina "Um, hi. Is Dave okay? He left me a voice note about having hurt his head..."
 
@@ -28,8 +32,13 @@ label interruption1:
 
                     kristina "That's a relief. Thanks, [player_name] - I'll leave you to it!"
 
-                    hide kristina
-                    show dave at center 
+                    show kristina at right:
+                        ease 0.5 offscreenright
+
+                    show dave at left:
+                        ease 0.5 center
+
+                    pause 0.5
 
                 "We're in an ambulance on our way to A&E.":
 
@@ -39,8 +48,13 @@ label interruption1:
 
                     kristina "Jesus, you really had me worried for a second there! Alright, I'll leave you to it."
 
-                    hide kristina
-                    show dave at center
+                    show kristina at right:
+                        ease 0.5 offscreenright
+
+                    show dave at left:
+                        ease 0.5 center
+
+                    pause 0.5
 
         "Ignore the call":
     

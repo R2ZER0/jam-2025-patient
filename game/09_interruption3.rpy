@@ -75,7 +75,7 @@ label interruption3:
 
             hide phone
 
-    d "Thanks - I don't really feel up to socialising."
+    d "Oh, and thanks for wrangling the phone stuff - I don't really feel up to socialising."
 
     p "No problem."
 

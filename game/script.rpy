@@ -11,6 +11,7 @@ default count_impatience = 0
 # choice flags
 default chose_tell_option = False
 default chose_feeling_ok_option = False
+default is_filming = False
 
 # location can be:
 # * travelling
@@ -34,6 +35,7 @@ label start:
     $ count_impatience = 0
     $ chose_tell_option = False
     $ chose_feeling_ok_option = False
+    $ is_filming = False
 
     # 
     call ask_player_info

@@ -244,6 +244,16 @@ label common_tpih(loop_n):
                 $ count_impatience = count_impatience + 1
 
             # TODO: Add fancy coding to make .restofit have different bits to recognise it if you're filming
+            # Use:
+            #
+            # if is_filming:
+            #   ...
+            #
+            # if not is_filming:
+            #   ...
+
+
+
 
             "Are you feeling okay?" if loop_n >= 9 and not chose_feeling_ok_option:
                 $ chose_feeling_ok_option = True

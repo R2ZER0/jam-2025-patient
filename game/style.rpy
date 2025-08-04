@@ -6,5 +6,5 @@
 # BONUS: allow "internal" style to be simultaneously a custom color AND in italics.
 
 style internal is text:
-    color "#0000EE"
+    color "#00abee"
     italic True

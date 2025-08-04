@@ -29,7 +29,7 @@ label interruption4:
 
                     p "Thanks, have a nice day!"
 
-                    p "{internal}Customer service reflexes never die, I guess."
+                    p "{=internal}Customer service reflexes never die, I guess."
 
                     hide stuart
                     show dave at center 

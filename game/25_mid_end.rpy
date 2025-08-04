@@ -9,6 +9,10 @@ label mid_end:
 
     d "You're a really good [sibling_ref], [player_name]!"
 
+    p "Aww, thank you!"
+
+    p "{=internal}I feel like I maybe could've been more patient with him, but hey - nobody's perfect. I did the best I could in a tough situation, right?"
+
     hide dave
 
     return

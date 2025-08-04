@@ -68,11 +68,21 @@ label start:
 
     call hospital_corridor
 
+    call common_tpih(6)
+
     call interruption2
 
-    #call interruption3 # TODO: uncomment when ready
-    
-    #call interruption4 # TODO: uncomment when ready
+    call common_tpih(7)
+
+    call common_tpih(8)
+
+    call interruption3 
+
+    call common_tpih(9)
+  
+    call interruption4
+
+    call common_tpih(10)
 
     call monologue7
 

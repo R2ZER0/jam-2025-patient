@@ -75,4 +75,30 @@ label interruption3:
 
     p "No problem."
 
+    d "Hey, people with head injuries sometimes act pretty weird. Am I acting weird?"
+
+    p "{=internal}Aside from the looping memory, you're like your usual self... But the memory thing is pretty weird."
+
+    p "You could say that, yeah - a bit."
+
+    d "Is it funny or just distressing?"
+
+    p "...A bit of both?"
+
+    d "You should film me, then! I want to see the funny bits when I'm feeling better."
+
+    p "Uh, are you sure?"
+
+    d "Yeah, do it!"
+
+    menu:
+
+        "Okay...":
+            $ is_filming = True
+            d "Awesome!"
+
+        "I don't think that's a good idea.":
+            $ is_filming = False
+            d "Aww... okay."
+
     return

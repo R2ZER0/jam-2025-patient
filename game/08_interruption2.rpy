@@ -15,7 +15,7 @@ label interruption2:
             show dave at left
             show louis at right
 
-            louis "Hey [playername], Louis here. Dave left me a voicemail saying he'd hurt his head. Is he okay?"
+            louis "Hey [player_name], Louis here. Dave left me a voicemail saying he'd hurt his head. Is he okay?"
 
             p "{=internal}How many people did he call about this?"
 

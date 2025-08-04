@@ -31,8 +31,8 @@ label interruption4:
 
                     p "{=internal}Customer service reflexes never die, I guess."
 
-                    hide stuart
-                    show dave at center 
+                    hide alex
+                    show dave at center # TODO: ease this
 
                     d "'Have a nice day'? You sound like a chatbot or something.'"
 
@@ -62,8 +62,8 @@ label interruption4:
 
                     alex "...Right. Well, good luck with it all. Bye for now!"
 
-                    hide alex
-                    show dave at center
+                    hide alex 
+                    show dave at center #TODO: ease this
 
                     # show dave_confused
 

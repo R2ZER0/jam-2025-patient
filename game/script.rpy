@@ -64,8 +64,17 @@ label start:
 
     call hospital_corridor
 
-    # call everything else that needs calling, please
+    call interruption2
 
+    #call interruption3 # TODO: uncomment when ready
+    
+    #call interruption4 # TODO: uncomment when ready
+
+    call monologue7
+
+    call home
+
+    
 
     # This ends the game.
     return

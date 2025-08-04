@@ -21,7 +21,7 @@ label worst_end:
 
     p "Haha, it was no big deal."
 
-    d "You're the best, [playername], seriously."
+    d "You're the best, [player_name], seriously."
 
     p "{=internal}Honestly, I wish I'd been more patient with you and done a better job of keeping you relaxed. But it is what it is, I guess."
 

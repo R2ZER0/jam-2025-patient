@@ -88,7 +88,7 @@ label start:
 
     call home
 
-    
+    call credits
 
     # This ends the game.
     return

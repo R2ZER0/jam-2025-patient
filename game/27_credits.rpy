@@ -1,6 +1,6 @@
 label credits:
 
-    "Credits"
+    "{b}Credits{/b}"
 
     "This game is based on a true story. Our thanks to the real-life 'Dave' for giving us permission to make it!"
 
@@ -20,6 +20,6 @@ label credits:
 
     "This game (or at least, the rough draft of it) was created for the 2025 GMTK Game Jam. The prompt was 'Loop'."
 
-    "Thank you for playing!"
+    "Thank you for playing - we hope you enjoyed it!"
 
     return

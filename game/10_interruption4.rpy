@@ -2,7 +2,7 @@ label interruption4:
 
     call ring_phone
 
-    d "Oh hey' someone's calling me. Would you mind getting that?"
+    d "Oh hey, someone's calling me. Would you mind getting that?"
 
     menu:
         "Pick up":

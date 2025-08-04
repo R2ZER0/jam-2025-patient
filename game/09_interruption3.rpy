@@ -38,9 +38,13 @@ label interruption3:
 
                     p "I do kinda wish you hadn't called so many of them, though!"
 
+                    show dave confused
+
                     d "Huh, I can't remember calling anyone."
 
                     p "I mean, I'm glad you called me, otherwise I wouldn't be here. So good job, I guess."
+
+                    show dave smiling
 
                     d "Thanks."
 

@@ -46,7 +46,7 @@ label hospital_ae:
     p "Will do!"
 
     hide nurse
-    show dave at center
+    show dave at center # TODO: ease this? currently he just teleports
 
     p "{=internal}He's such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me."
 

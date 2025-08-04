@@ -21,7 +21,7 @@ label interruption3:
 
             menu:
                 
-                "Hopefully not. Don't worry, I'm with him and I'm taking him to hospital to get checked over.":
+                "Hopefully not. Don't worry, I'm with him and he's been seen by a doctor.":
 
                     stuart "Nice one. I look forward to hearing about his shenanigans when he's recovered."
 
@@ -44,7 +44,7 @@ label interruption3:
 
                     d "Thanks."
 
-                "Might be - his memory's a bit damaged. We're going to A&E to get him checked over.":
+                "Might be - his memory's a bit damaged. We're at A&E and he's been checked over by a doctor.":
 
                     stuart "Oh damn! Keep me posted when you get a chance, yeah?"
 

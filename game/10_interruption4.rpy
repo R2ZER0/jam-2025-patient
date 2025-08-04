@@ -23,7 +23,7 @@ label interruption4:
 
             menu:
                 
-                "For real, unfortunately. Don't worry, I'm with him and I'm taking him to hospital to get checked over.":
+                "For real, unfortunately. Don't worry, I'm with him and we're just waiting to be discharged from the hospital.":
 
                     alex "Oh dear. Well, I'm glad he's got you with him. I'll let you get on with things!"
 
@@ -44,7 +44,7 @@ label interruption4:
 
                     d "...You're really not selling the experience."
 
-                "Not a prank, I'm afraid. We're on our way to A&E.":
+                "Not a prank, I'm afraid. We're in A&E.":
 
                     alex "Crap! Is he going to be okay?"
 

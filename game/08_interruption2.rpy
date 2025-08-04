@@ -21,7 +21,7 @@ label interruption2:
 
             menu:
                 
-                "Don't worry, I'm with him and I'm taking him to hospital to get checked over.":
+                "Don't worry, I'm with him and he's been checked over by a doctor.":
 
                     louis "Cool. I hope it goes well. Tell Dave I'm thinking of him!"
 

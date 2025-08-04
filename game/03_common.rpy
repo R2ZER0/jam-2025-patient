@@ -383,7 +383,19 @@ label .restofit:
 
         "Yeah, your wrist might be sprained or broken, I'm not sure." if location == "park" or location == "ambulance":
 
+            d "Oh, that's annoying. I hope it's just sprained."
+
+            p "Me too."
+
         "Yeah, the medics reckon your wrist is probably broken, sorry." if location != "park" and location != "ambulance":
+
+            d "Aww, that's going to take ages to heal, isn't it?"
+
+            p "About 6 to 12 weeks, apparently."
+
+            d "Well, that sucks."
+
+            p "Yeah. Sorry, man."
 
     $ count_patience = count_patience + 1
 

@@ -43,7 +43,7 @@ label park:
     show dave confused at left with move
     show stranger at right
 
-    stranger "Yeah, his memory sort of loops every few minutes."
+    stranger "Um, his memory sort of loops every few minutes."
 
     p "What the...?"
 

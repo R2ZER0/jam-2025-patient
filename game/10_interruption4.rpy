@@ -83,7 +83,7 @@ label interruption4:
 
             hide phone
 
-    d "Thanks for handling that."
+    d "Anyway, thanks for handling that."
 
     p "No problem."
 

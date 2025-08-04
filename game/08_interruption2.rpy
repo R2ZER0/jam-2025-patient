@@ -79,7 +79,7 @@ label interruption2:
 
             hide phone
 
-    d "Thanks - it's good to have someone else to handle this stuff."
+    d "Thanks for dealing with the call - it's good to have someone else to handle this stuff."
 
     p "No problem."
 

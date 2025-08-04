@@ -1,6 +1,5 @@
-# add technical stuff to make it work
-
-    show dave_smiling # Check and fix this if it still needs fixing
+label mid_end:
+    show dave smiling
 
     d "Thank you so much for looking after me while I was concussed!"
 

@@ -11,9 +11,9 @@ label interruption2:
            
             p "Hi, you've reached Dave's phone but he's unavailable right now. This is his [sibling_ref], [player_name]."
            
-            # move Dave left, show Kristina (a silhouette) right
+            # move Dave left, show Louis (a silhouette) right
             show dave at left
-            show kristina at right
+            show lauis at right
 
             louis "Hey [playername], Louis here. Dave left me a voicemail saying he'd hurt his head. Is he okay?"
 

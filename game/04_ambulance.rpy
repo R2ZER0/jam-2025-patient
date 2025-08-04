@@ -6,11 +6,11 @@ label ambulance:
     
     p "{=internal}The paramedic wastes no time, directing Dave into the back of the ambulance."
 
-    hide dave with fade # Need to fix this - want Dave to fade out, not the whole screen!
+    hide dave with fade # FIXME: Need to fix this - want Dave to fade out, not the whole screen!
 
     p "Hey, um, I can squeeze in there too, right?"
 
-    show paramedic #with fade # Need to fix this - want silhouette to fade in, not the whole screen!
+    show paramedic #with fade # FIXME: Need to fix this - want silhouette to fade in, not the whole screen!
 
     paramedic "Are you family?"
 
@@ -22,9 +22,9 @@ label ambulance:
 
     scene bg ambulance with fade  # change background to ambulance interior
 
-    show dave confused at left #with fade # Need to fix this - want Dave to fade in, not the whole screen!
+    show dave confused at left #with fade # FIXME: Need to fix this - want Dave to fade in, not the whole screen!
 
-    show paramedic at right #with fade # Fix this too show paramedic silhouette fade in right
+    show paramedic at right #with fade # FIXME: Fix this too show paramedic silhouette fade in right
 
     p """
     

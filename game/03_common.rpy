@@ -166,8 +166,8 @@ label common_tpih(loop_n):
 
                 p "You're such a word nerd."
 
-            "Do you want me to tell Mum and John about your accident?" if loop_n == 7:
-                # or if this wasn't selected in loop_7, show it again in loop_8
+            "Do you want me to tell Mum and John about your accident?" if loop_n == 7 or (loop_n == 8 and not chose_tell_option):
+                $ chose_tell_option = True
 
                 d "Nah. They'd only worry."
 
@@ -204,10 +204,10 @@ label common_tpih(loop_n):
 
                 p "{=internal}Assuming that we ever get out of this place..."
 
+                
                 # Do not add any points
 
-            "How much do you remember?" if loop_n == 8: #and
-            # add code for "Do you want me to tell Mum and John?" was picked in loop_7:
+            "How much do you remember?" if loop_n == 8 and chose_tell_option:
 
                 d "About what?"
 
@@ -243,9 +243,10 @@ label common_tpih(loop_n):
 
                 $ count_impatience = count_impatience + 1
 
-            # Add fancy coding to make .restofit have different bits to recognise it if you're filming
+            # TODO: Add fancy coding to make .restofit have different bits to recognise it if you're filming
 
-            "Are you feeling okay?" if loop_n >= 9: #and the player didn't already pick this option
+            "Are you feeling okay?" if loop_n >= 9 and not chose_feeling_ok_option:
+                $ chose_feeling_ok_option = True
 
                 # add code to remove this option from next loop(s)
 
@@ -367,5 +368,3 @@ label .restofit:
         "Yeah, the medics reckon your wrist is probably broken, sorry."
 
     $ count_patience = count_patience + 1
-
-    return

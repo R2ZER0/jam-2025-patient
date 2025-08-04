@@ -26,7 +26,7 @@ label hospital_ae:
 
     p "{=internal}I zone out a little while filling in Dave's medical information. I've had to do this a few times, so I know the essentials by heart."
 
-    show dave smiling at left # TODO minus helmet?
+    show dave smiling at left # TODO: minus helmet?
     show nurse at right
 
     nurse """

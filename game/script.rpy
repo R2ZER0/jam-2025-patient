@@ -8,6 +8,10 @@ default wrong_gender_formalism = "ma'am"
 default count_patience = 0
 default count_impatience = 0
 
+# choice flags
+default chose_tell_option = False
+default chose_feeling_ok_option = False
+
 # location can be:
 # * travelling
 # * park
@@ -28,6 +32,8 @@ label start:
 
     $ count_patience = 0
     $ count_impatience = 0
+    $ chose_tell_option = False
+    $ chose_feeling_ok_option = False
 
     # 
     call ask_player_info

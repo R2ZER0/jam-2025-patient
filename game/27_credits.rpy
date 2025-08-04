@@ -1,4 +1,4 @@
-# add technical stuff to make it work please
+label credits:
 
     "Credits"
 
@@ -12,7 +12,7 @@
 
     "Dave sprites by Jo"
   
-    "Park background from" # INSERT SOURCE HERE
+    "Park background by Pavel Kutejnikov" # see assets/meadows/README
     
     "Silhouette art from Victeezy.com" # check if we need to cite specific artists, add details if so
     

@@ -59,8 +59,9 @@ label park:
     d "I don't remember them calling me an ambulance, either."
 
     p "{=internal}Yikes, this could be really bad... but I probably shouldn't tell him that.
-    I don't want him to be stressed out on top of being injured.
-    I guess I'll just focus on first aid and keeping him calm till the ambulance gets here."
+    I don't want him to be stressed out on top of being injured."
+
+    p "{=internal}I guess I'll just focus on first aid and keeping him calm till the ambulance gets here."
 
     p "No big deal. Are you hurt anywhere other than your head?"
 

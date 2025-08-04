@@ -15,7 +15,7 @@ label interruption3:
             show dave at left
             show stuart at right
 
-            stuart "Hi [playername], it's Louis. Just got a message from Dave that he hurt his head. Was it serious?"
+            stuart "Hi [player_name], it's Stuart. Just got a message from Dave that he hurt his head. Was it serious?"
 
             p "{=internal}I'm beginning to think Dave called everyone in his contacts about this..."
 

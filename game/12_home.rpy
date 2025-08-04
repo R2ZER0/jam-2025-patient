@@ -1,5 +1,6 @@
 label home:
-    scene bg home
+
+    scene bg home with fade # TODO: check this works!
 
     pause 1.0 # FIXME: 1-second pause just to check that the scene loads, replace with actual content?
 

@@ -41,7 +41,7 @@ label hospital_ae:
 
     d "It's [gender_formalism], actually."
 
-    nurse "Oh, my mistake! Sorry, xir. Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor..."
+    nurse "Oh, my mistake! Sorry, [gender_formalism]. Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor..."
 
     p "Will do!"
 

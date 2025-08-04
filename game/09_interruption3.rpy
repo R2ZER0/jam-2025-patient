@@ -2,7 +2,7 @@ label interruption3:
 
     call ring_phone
 
-    d "Oh, there goes my phone again. Care to do the honours, [player_name]?"
+    d "Oh, there goes my phone. Care to do the honours, [player_name]?"
 
     menu:
         "Pick up":

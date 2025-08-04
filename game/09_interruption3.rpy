@@ -99,6 +99,7 @@ label interruption3:
 
         "Okay...":
             $ is_filming = True
+            # apply filming visual
             d "Awesome!"
 
         "I don't think that's a good idea.":

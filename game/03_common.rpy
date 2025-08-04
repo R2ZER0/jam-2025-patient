@@ -432,12 +432,14 @@ label .restofit:
 
         else:
 
-            p "Well, I have managed to catch at least one memory loop on camera..."
+            p "{=internal}Well, I have managed to catch at least one memory loop on camera..."
             
             p "Probably, yeah."
 
             d "Cool, that's a wrap, then!"
 
             $ is_filming = False
+
+            # end filming visual
 
     return  

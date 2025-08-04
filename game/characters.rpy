@@ -11,5 +11,5 @@ define nurse = Character("Nurse", color="#252877")
 # Friends
 define kristina = Character("Kristina", color="#642c88")
 define louis = Character("Louis", color="#d262cd")
-define stuart = Character("Stuart", color="#5d3410")
+define stuart = Character("Stuart", color="#8b6545")
 define alex = Character("Alex", color="#d1a618")

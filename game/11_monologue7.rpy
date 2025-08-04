@@ -1,4 +1,6 @@
 label monologue7:
+
+    # TODO: hide dave, fade to black background
     
     p """
 

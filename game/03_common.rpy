@@ -372,7 +372,17 @@ label .restofit:
     d "My head really hurts. So does my wrist."
 
     menu:
-        "Yeah, I'm pretty sure you have a concussion.":
+        "Yeah, I'm pretty sure you have a concussion." if location == "park" or location == "ambulance":
+            # "Helmet"
+            p "{=internal}He reaches up to touch his head, but his helmet gets in the way."
+            show dave smiling
+            d "Good thing I was wearing this!"
+            if is_filming:
+                p "{=internal}Thank goodness we recorded that for posterity."
+                p "{=internal}Nobody would've believed me how many times I sat through it, otherwise."
+
+        "Yeah, the doctor said you have a concussion." if location != "park" and location != "ambulance":
+
             # "Helmet"
             p "{=internal}And to nobody's surprise, he tries to touch his head, but his helmet gets in the way."
             show dave smiling
@@ -380,6 +390,13 @@ label .restofit:
             if is_filming:
                 p "{=internal}Thank goodness we recorded that for posterity."
                 p "{=internal}Nobody would've believed me how many times I sat through it, otherwise."
+
+            d "How bad is it?"
+
+            p "Could be worse. They're keeping you under observation for a bit, just to be on the safe side."
+
+            d "Fair enough."
+
 
         "Yeah, your wrist might be sprained or broken, I'm not sure." if location == "park" or location == "ambulance":
 

@@ -381,9 +381,9 @@ label .restofit:
                 p "{=internal}Thank goodness we recorded that for posterity."
                 p "{=internal}Nobody would've believed me how many times I sat through it, otherwise."
 
-        "Yeah, your wrist might be sprained or broken, I'm not sure." if location == "park" or location == "ambulance":
+        "Yeah, your wrist might be sprained or broken, I'm not sure." if location == "park" or location == "ambulance"
 
-        "Yeah, the medics reckon your wrist is probably broken, sorry." if location != "park" and location != "ambulance":
+        "Yeah, the medics reckon your wrist is probably broken, sorry." if location != "park" and location != "ambulance"
 
     $ count_patience = count_patience + 1
 

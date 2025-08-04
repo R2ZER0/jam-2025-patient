@@ -28,7 +28,7 @@ label common_tpih(loop_n):
 
     if loop_n == 10:
 
-            p "{=internal}Even if Dave won't remember this, I'm proud that I've tried my absolute best to be reassuring."
+            p "{=internal}Still, even if Dave won't remember this, I'm proud that I've tried my absolute best to be reassuring."
 
     if is_filming:
 

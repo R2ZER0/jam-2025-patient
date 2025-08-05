@@ -64,7 +64,9 @@ label .set_variables:
     else:
         $ wrong_gender_formalism = "uh... um, you there"
 
-menu .content_warnings:
+# TODO: quality check the below, make sure it all works properly.
+
+menu .content_warnings: 
     "Would you like to know the content warnings for this game? Please note they contain a minor spoiler."
 
     "Yes":

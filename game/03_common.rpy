@@ -171,7 +171,7 @@ label common_tpih(loop_n):
 
                 p "You're such a word nerd."
 
-                # Add Impatient point?
+                $ count_impatience = count_impatience + 1 
 
             "Do you want me to tell Mum and John about your accident?" if loop_n == 7 or (loop_n == 8 and not chose_tell_option):
                 $ chose_tell_option = True

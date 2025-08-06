@@ -113,30 +113,46 @@ label hospital_ae:
     show dave smiling at left
     show nurse at right
 
-    nurse """
-    
-    Hello there [wrong_gender_formalism], the doctor said that Dave should be just fine. 
-    
-    Still, we'd like to keep you two here for a little while just in case.
-
-    """
+    nurse "Hello there [wrong_gender_formalism], the doctor said that Dave should hopefully make a good recovery."
 
     p "{=internal}Ugh, not again... I wish public-facing staff got basic training on trans inclusion."
 
     d "It's [gender_formalism], actually."
 
-    nurse "Oh, my mistake! Sorry, [gender_formalism]. Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor..."
+    nurse """
+    
+    Oh, my mistake! Sorry, [gender_formalism].
+
+    We've given Dave some painkillers with an anti-inflammatory effect. 
+    
+    Please make sure he doesn't have any more for at least four hours.
+
+    His short-term memory processing issue is likely to resolve with some rest, once the inflammation goes down.
+    
+    Still, we'd like to keep him here under observation for a little while just in case.
+
+    The longer-term memory loss may well get better with time, but it's hard to predict how much.
+    
+    Anyway, we don't have any free beds to offer you, but if you could just stay in that corridor for now...
+
+    """
 
     p "Will do!"
 
     hide nurse
     show dave at center # TODO: ease this? currently he just teleports
 
-    p "{=internal}He's such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me."
+    p """
+    
+    {=internal}Thank goodness he's going to be okay.
 
-    p "{=internal}If every trans person had an ally like him, the world would be a much nicer place."
+    {=internal}Dave is such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me.
 
-    p "Thanks."
+    {=internal}If every trans person had an ally like him, the world would be a much nicer place.
+
+    Thanks.
+
+    """
     
     d "Anytime."
 

@@ -6,7 +6,7 @@ define d = Character("Dave", color="#ff4c4c")
 define stranger = Character("Stranger", color="#858585")
 define paramedic = Character("Paramedic", color="#28732c")
 define receptionist = Character("Receptionist", color="#d0702b")
-define nurse = Character("Nurse", color="#252877")
+define nurse = Character("Nurse", color="#4564e2")
 
 # Friends
 define kristina = Character("Kristina", color="#642c88")

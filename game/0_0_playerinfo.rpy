@@ -69,7 +69,7 @@ label .set_variables:
 menu .content_warnings:
     "Would you like to know the content warnings for this game? Please note they contain a minor spoiler.":
 
-        "Yes":
+        "Yes"
             """
             This game focuses on supporting someone with a serious concussion and memory problems, and includes some anxious thoughts relating to this. 
             
@@ -79,9 +79,9 @@ menu .content_warnings:
 
             """
         
-        "No": 
+        "No"
             "Okay."
 
-        "Let's get started, then!"
+    "Let's get started, then!"
 
 return

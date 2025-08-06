@@ -69,17 +69,21 @@ label .set_variables:
 menu .content_warnings:
     "Would you like to know the content warnings for this game? Please note they contain a minor spoiler."
 
-    "Yes"
+    "Yes":
         """
         This game focuses on supporting someone with a serious concussion and memory problems, and includes some anxious thoughts relating to this. 
             
-        There are also a few brief moments of cisnormativity, which can optionally be challenged and mostly corrected (save for one instance of tacit transphobia from a minor character, which is portrayed as harmful).
+        There are also a few brief moments of cisnormativity, which can optionally be challenged and mostly corrected.
+        
+        However, there is one instance of tacit transphobia from a minor character, which is portrayed as harmful.
             
-        There is context-appropriate bad language in the form of expletives from worried or shocked characters - most of these are very mild, though there is one instance of strong language ('f***ing hell!').
+        There is context-appropriate bad language in the form of expletives from worried or shocked characters.
+        
+        Most of these are very mild, though there is one instance of strong language ('f***ing hell!').
 
         """
         
-    "No"
+    "No":
         "Okay."
 
 "Let's get started, then!"

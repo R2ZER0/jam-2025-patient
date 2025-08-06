@@ -66,8 +66,8 @@ label .set_variables:
 
 # TODO: quality check the below, make sure it all works properly.
 
-menu .content_warnings: 
-    "Would you like to know the content warnings for this game? Please note they contain a minor spoiler."
+menu .content_warnings:
+    "Would you like to know the content warnings for this game? Please note they contain a minor spoiler.":
 
     "Yes":
         """
@@ -84,4 +84,4 @@ menu .content_warnings:
 
     "Let's get started, then!"
 
-    return
+return

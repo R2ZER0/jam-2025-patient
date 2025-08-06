@@ -11,6 +11,9 @@ if location == ambulance:
     menu:
 
         "Good point. Never mind.":
+
+            d "...Okay then."
+            
             # TODO: return to previous point of ambulance scene
 
         "I do what I want!":
@@ -63,7 +66,7 @@ menu:
 
         # add code to return to where you left off and pressed the quit button
 
-    "Leave and do literally anything else you want"
+    "Leave and do literally anything else you want":
 
         p """
         

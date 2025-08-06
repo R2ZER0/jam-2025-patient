@@ -53,7 +53,9 @@ label ambulance:
     
     paramedic "Hey, [wrong_gender_formalism]." #gendered form of address based on wronggender, if m then "sir", if f then "ma'am", if panic then "uh... um... excuse me"
 
-    paramedic "Please can you talk with him while I sort out his wrist? Just keep him calm till we arrive."
+    paramedic "Please can you talk with him while I sort out his wrist? It's probably broken."
+    
+    paramedic "Just chat with him and keep him calm till we arrive."
 
     p """
     

@@ -4,7 +4,7 @@ label ambulance:
     
     p "{=internal}A wailing siren alerts us to the ambulance's arrival. It pulls up right by us in the park."
     
-    p "{=internal}The paramedic wastes no time, directing Dave into the back of the ambulance."
+    p "{=internal}The paramedic wastes no time directing Dave into the back of the ambulance."
 
     hide dave with fade # FIXME: Need to fix this - want Dave to fade out, not the whole screen!
 

@@ -1,12 +1,45 @@
-# add code to make this work
+# TODO: add code to make this work
 
 p "Hey Dave, I'm just gonna go get some fresh air - I'll be back in a minute."
+
+# TODO: please fix indents if needed
+
+if location == ambulance:
+
+    d "But... we're in a moving vehicle."
+
+    menu:
+
+        "Good point. Never mind.":
+            # TODO: return to previous point of ambulance scene
+
+        "I do what I want!":
+
+            paramedic "Please don't try to open the doors -"
+
+            p "You don't control me!"
+
+            p "{=internal}I try to leap to freedom..."
+
+            paramedic "...Well, now we have TWO patients for A&E."
+
+            # BONUS TODO: cue trophy art as per below, but word art reads "Most Reckless Escapee" instead
+
+# TODO: if location == park:
+
+    d "But we're already outside."
+
+    p "I mean I just need a minute to myself."
+
+    # TODO: go to the below
+
+# TODO: if location != ambulance
 
 d "Oh, okay."
 
 hide dave
 
-scene bg corridor
+# hide background with fade
 
 p """
 

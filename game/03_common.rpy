@@ -114,13 +114,14 @@ label common_tpih(loop_n):
 
                 d "Ha, that is pretty tragic. I'll buy you a snack from the hospital vending machines if you want."
 
+                d "But, um, first I have a question..."
+
                 $ count_impatience = count_impatience + 1
 
             "What's going to happen when we get to the hospital?" if loop_n == 5:
 
-                show dave center: 
-
-                    ease 0.5 left # Need to test this, make sure it works!
+                show dave center: # TODO: flip that boy
+                    ease 0.5 left # TODO: Need to test this, make sure it works! IT DOESN'T SEEM TO
                 
                 show paramedic right
                 

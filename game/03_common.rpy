@@ -86,7 +86,7 @@ label common_tpih(loop_n):
 
                 p "{=internal}Oh, the irony."
 
-                # TODO: replace daveconfused with davesmiling
+                # TODO: replace daveconfused flipped with davesmiling flipped
 
                 d "I wonder if we're allowed to take selfies in here."
 
@@ -98,7 +98,7 @@ label common_tpih(loop_n):
 
                 p "{=internal}I really hope this'll just be a funny anecdote someday..."
 
-                # TODO: replace davesmiling with daveconfused
+                # TODO: replace davesmiling flipped with daveconfused flipped
 
                 d "What's that look for?"
 
@@ -110,7 +110,7 @@ label common_tpih(loop_n):
 
                 p "Just thinking about how I skipped lunch to be here."
 
-                # TODO: replace daveconfused with davesmiling
+                # TODO: replace daveconfused flipped with davesmiling flipped
 
                 d "Ha, that is pretty tragic. I'll buy you a snack from the hospital vending machines if you want."
 

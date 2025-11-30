@@ -18,9 +18,7 @@ label interruption1:
             show dave confused at center:
                 ease 0.5 left
 
-            show kristina at offscreenright:
-                ease 0.5 right
-
+            show kristina with dissolve at right #FIXME: Kristina flies in from left of screen, which is bizarre. flip that friend.
 
             kristina "Um, hi. Is Dave okay? He left me a voice note about having hurt his head..."
 

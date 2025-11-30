@@ -117,6 +117,6 @@ label ambulance:
     
     hide paramedic
 
-    pause 1
+    # pause 1 - depending what we need, currently Dave just awkwardly stares if this is enabled.
 
     return

@@ -38,7 +38,7 @@ menu .nb_what_typical_mistake:
         $ wrong_gender = "panic"
         jump .set_variables
 
-    # BONUS TODO: Add an option here to disable all misgendering, and appropriate triggers throughout the scripts.
+    # BONUS TODO: Add an option here to disable all misgendering, and add appropriate triggers throughout the scripts.
 
 label .set_variables:
     # if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling.

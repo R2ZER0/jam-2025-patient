@@ -56,11 +56,11 @@ label common_tpih(loop_n):
 
                 d "I don't really remember."
 
-                show stranger at right
+                show stranger at right with dissolve
 
                 stranger "One of his jump-stilts caught on the other and he tripped headfirst onto the pavement."
 
-                hide stranger
+                hide stranger with dissolve
 
                 p "Ouch." # No 'Impatient' points should get added to this one.
 

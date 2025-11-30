@@ -44,7 +44,6 @@ label start:
     # Now we have the variables `player_name`, `gender` and `wrong_gender`
 
     define p = Character("[player_name]", color="#229379")
-# old debug code, ignore    "DEBUG: Hello name=[player_name] gender=[gender] wrong_gender=[wrong_gender]"
 
     call monologue1
 

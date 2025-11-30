@@ -11,6 +11,8 @@ label ambulance:
     p "Hey, um, I can squeeze in there too, right?"
 
     show paramedic #with fade # FIXME: Need to fix this - want silhouette to fade in, not the whole screen!
+    
+    #TODO: edit paramedic sprite to have a nice clean black outline
 
     paramedic "Are you family?"
 

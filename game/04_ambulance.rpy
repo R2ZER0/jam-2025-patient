@@ -11,7 +11,7 @@ label ambulance:
     p "Hey, um, I can squeeze in there too, right?"
 
     show paramedic at center with dissolve: 
-        linear 0 xzoom -1.0 
+        linear 0 xzoom -1.0 # have paramedic correct way round to avoid awkward horizontal flip later
     
     #TODO: edit paramedic sprite to have a nice clean black outline
 
@@ -28,7 +28,8 @@ label ambulance:
     show dave confused at left with dissolve: 
         linear 0 xzoom -1.0 # flip Dave horizontally
 
-    show paramedic at right with dissolve 
+    show paramedic at right with dissolve:
+        linear 0 xzoom -1.0 # keep paramedic facing centre 
 
     p """
     
@@ -52,8 +53,7 @@ label ambulance:
 
     """
 
-    # need misgendering coding for this bit
-    # BONUS add the optional coding to skip the misgendering and instead get gendered correctly first time.
+    # BONUS TODO: add the optional coding to skip the misgendering and instead get gendered correctly first time.
     
     paramedic "Hey, [wrong_gender_formalism]." #gendered form of address based on wronggender, if m then "sir", if f then "ma'am", if panic then "uh... um... excuse me"
 
@@ -78,13 +78,13 @@ label ambulance:
         "Speak up.":
 
             if wrong_gender_formalism:
-                p "It's actually [gender_formalism], not [wrong_gender_formalism]." # something in this section is wack. I tried fixing wronggenderformalism so that it says 'uh... you there' instead of 'None'
+                p "It's actually [gender_formalism], not [wrong_gender_formalism]." # TODO: check nothing here is wack now
             else:
                 p "It's actually [gender_formalism]."
 
             p "Or you can just call me [player_name]."
 
-            paramedic "Oh, sorry [gender_formalism]." # This said 'xir' during Anthony's run instead of 'sir'. Why?
+            paramedic "Oh, sorry [gender_formalism]." #TODO: This said 'xir' during Anthony's run instead of 'sir'. Why?
 
             p "{=internal}I never know what to say when they apologise. 'Apology accepted' just feels passive-aggressive..."
 
@@ -102,7 +102,7 @@ label ambulance:
 
             {=internal}Just another little wound that will scar over with time.
 
-            {=internal}I wish people would just {u}ask{/u} what to call me instead of assuming... 
+            {=internal}I wish people would just ask what to call me instead... 
 
             """
 

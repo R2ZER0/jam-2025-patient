@@ -38,6 +38,8 @@ menu .nb_what_typical_mistake:
         $ wrong_gender = "panic"
         jump .set_variables
 
+    # BONUS TODO: Add an option here to disable all misgendering, and appropriate triggers throughout the scripts.
+
 label .set_variables:
     # if gender = m, stepbrother. if = f, stepsister. if = nb, stepsibling.
     # formalism: m = sir, f = ma'am, nb = xir if you insist on being formal. 
@@ -62,7 +64,7 @@ label .set_variables:
         $ wrong_gender_formalism = "ma'am"
 
     else:
-        $ wrong_gender_formalism = "uh... um, you there"
+        $ wrong_gender_formalism = "si- uh, ma- uh... um, you there"
 
 # TODO: quality check the below, make sure it all works properly.
 

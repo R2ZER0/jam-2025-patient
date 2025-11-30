@@ -7,7 +7,7 @@ label secret_end:
     
     # TODO: please fix indents if needed
     
-    if location == ambulance:
+    if location == "ambulance":
     
         d "But... we're in a moving vehicle."
     
@@ -31,7 +31,7 @@ label secret_end:
     
                 # BONUS TODO: cue trophy art as per below, but word art reads "Most Reckless Escapee" instead
     
-    # TODO: if location == park:
+    if location == "park":
     
         d "But we're already outside."
     
@@ -39,47 +39,48 @@ label secret_end:
     
         # TODO: go to the below
     
-    # TODO: if location != ambulance
+    else:
     
-    d "Oh, okay."
+        d "Oh, okay."
     
-    hide dave
+        # hide dave & background with fade
+        hide dave with fade
     
-    # hide background with fade
     
-    p """
+        p """
     
-    I know it's not his fault, but talking to him right now is so damn frustrating.
+        I know it's not his fault, but talking to him right now is so damn frustrating.
     
-    Hell, if I just walked away now, would it even matter?
+        Hell, if I just walked away now, would it even matter?
     
-    There'll be medical staff to look after him.
+        There'll be medical staff to look after him.
     
-    I mean, sure, they're chronically overworked from all the massive cuts to the NHS, but still.
+        I mean, sure, they're chronically overworked from all the massive cuts to the NHS, but still.
     
-    I could just leave. Dave won't even remember that I was ever here, after all.
+        I could just leave. Dave won't even remember that I was ever here, after all.
     
-    """
+        """
     
-    menu:
+        menu:
     
-        "Go back to looking after Dave":
+            "Go back to looking after Dave":
     
-            p "What am I even thinking?!? It must be all the stress. I should get back to him."
+                p "What am I even thinking?!? It must be all the stress. I should get back to him."
     
-            # add code to return to where you left off and pressed the quit button
+                # TODO: add code to return to where you left off and pressed the quit button
     
-        "Leave and do literally anything else you want":
+            "Leave and do literally anything else you want":
     
-            p """
-            
-            He's an adult. I don't have to babysit him.
+                p """
+
+                He's an adult. I don't have to babysit him.
     
-            Sure, he's not in his right mind just now, but that's his problem.
-            
-            I'm out of here.
+                Sure, he's not in his right mind just now, but that's his problem.
+
+                I'm out of here.
     
-            """
-            # BONUS add art of a gold trophy with the words "Worst Next of Kin Ever" in obnoxious word art arcing above it
+                """
+                # BONUS TODO: add art of a gold trophy with the words "Worst Next of Kin Ever" in obnoxious word art arcing above it
     
-            # add code to exit game
+    # Exit the game
+    $ renpy.quit()

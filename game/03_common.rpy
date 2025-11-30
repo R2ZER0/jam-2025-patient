@@ -114,6 +114,8 @@ label common_tpih(loop_n):
 
                 d "Ha, that is pretty tragic. I'll buy you a snack from the hospital vending machines if you want."
 
+                # TODO: replace davesmiling flipped with daveconfused flipped
+
                 d "But, um, first I have a question..."
 
                 $ count_impatience = count_impatience + 1

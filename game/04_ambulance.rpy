@@ -10,7 +10,7 @@ label ambulance:
 
     p "Hey, um, I can squeeze in there too, right?"
 
-    show paramedic with dissolve: 
+    show paramedic at center with dissolve: 
         linear 0 xzoom -1.0 
     
     #TODO: edit paramedic sprite to have a nice clean black outline

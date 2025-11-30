@@ -81,6 +81,10 @@ menu .content_warnings:
         
         Most of these are very mild, though there is one instance of strong language ('f***ing hell!').
 
+        If you don't feel like playing this game for any reason, that's totally fine. You can just close this window.auto
+
+        Still here?
+
         """
         
     "No":

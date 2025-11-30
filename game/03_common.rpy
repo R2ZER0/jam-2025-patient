@@ -126,7 +126,7 @@ label common_tpih(loop_n):
 
             "What's going to happen when we get to the hospital?" if loop_n == 5:
 
-                show dave center: # TODO: flip that boy
+                show dave at center: # TODO: flip that boy
                     ease 0.5 left # TODO: Need to test this, make sure it works! IT DOESN'T SEEM TO
                 
                 show paramedic at right # TODO: check why Renpy is mad about this

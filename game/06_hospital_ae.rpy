@@ -14,7 +14,7 @@ label hospital_ae:
 
     """
 
-    show receptionist
+    show receptionist with dissolve # FIXME: white pixel line of death. Also, add nice black outline to receptionist?
 
     receptionist "Hi there, how can I help you?"
 
@@ -106,22 +106,33 @@ label hospital_ae:
 
             p "Thanks."
         
-    hide receptionist
+    hide receptionist with dissolve
 
     p "{=internal}I zone out a little while filling in Dave's medical information. I've had to do this a few times, so I know the essentials by heart."
 
-    show dave smiling at left
-    show nurse at right
+    show nurse at right with dissolve
 
     nurse "Hello there [wrong_gender_formalism], the doctor said that Dave should hopefully make a good recovery."
 
     p "{=internal}Ugh, not again... I wish public-facing staff got basic training on trans inclusion."
 
+    show dave smiling at left with dissolve # TODO: flip that boy
+
     d "It's [gender_formalism], actually."
 
+    nurse "Oh, my mistake! Sorry, [gender_formalism]."
+
+    p """
+
+    Thanks.
+
+    {=internal}Dave is such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me.
+
+    {=internal}If every trans person had an ally like him, the world would be a much nicer place.
+
+    """
+
     nurse """
-    
-    Oh, my mistake! Sorry, [gender_formalism].
 
     We've given Dave some painkillers with an anti-inflammatory effect. 
     
@@ -139,18 +150,14 @@ label hospital_ae:
 
     p "Will do!"
 
-    hide nurse
-    show dave at center # TODO: ease this? currently he just teleports
+    hide nurse with dissolve 
+    show dave at center # TODO: ease this? currently he just teleports # TODO: flip that boy?
 
     p """
     
     {=internal}Thank goodness he's going to be okay.
 
-    {=internal}Dave is such a sweetheart - ever since I told him how stressful it can be to correct people myself, he's just taken it on for me.
-
-    {=internal}If every trans person had an ally like him, the world would be a much nicer place.
-
-    Thanks.
+    Thanks, bro.
 
     """
     

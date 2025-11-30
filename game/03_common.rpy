@@ -129,7 +129,7 @@ label common_tpih(loop_n):
                 show dave at center: # TODO: flip that boy
                     ease 0.5 left # TODO: Need to test this, make sure it works! IT DOESN'T SEEM TO
                 
-                show paramedic at right # TODO: check why Renpy is mad about this
+                show paramedic at right # TODO: flip that paramedic
                 
                 paramedic "I'll make sure Dave here gets assessed by a doctor as soon as possible."
 

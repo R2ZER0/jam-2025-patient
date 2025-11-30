@@ -30,8 +30,7 @@ label interruption1:
 
                     kristina "That's a relief. Thanks, [player_name] - I'll leave you to it!"
 
-                    show kristina at right:
-                        ease 0.5 offscreenright
+                    hide kristina with dissolve
 
                     show dave at left:
                         ease 0.5 center

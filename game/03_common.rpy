@@ -56,7 +56,11 @@ label common_tpih(loop_n):
 
                 d "I don't really remember."
 
+                show stranger at right
+
                 stranger "One of his jump-stilts caught on the other and he tripped headfirst onto the pavement."
+
+                hide stranger
 
                 p "Ouch." # No 'Impatient' points should get added to this one.
 
@@ -360,6 +364,7 @@ label .restofit:
             d "July?"
             p "Yep."
             d "Nailed it."
+            pause 0.5
 
     if is_filming:
 

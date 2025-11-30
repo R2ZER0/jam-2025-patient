@@ -364,7 +364,6 @@ label .restofit:
             d "July?"
             p "Yep."
             d "Nailed it."
-            pause 0.5
 
     if is_filming:
 
@@ -372,7 +371,7 @@ label .restofit:
 
     # "Place"
 
-    d "Where are we?"
+    d "...Where are we?"
 
     p "[location_human]"
 
